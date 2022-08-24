@@ -1,8 +1,6 @@
 import React, { Component } from "react";
-import "../styles.css";
 
-class Footer extends Component {
-  render() {
+export default function Footer(){
     return (
       <React.Fragment>
          <div class="footer-container">
@@ -41,6 +39,4 @@ class Footer extends Component {
 
     );
   }
-}
 
-export default Footer;
