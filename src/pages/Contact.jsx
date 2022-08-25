@@ -5,7 +5,7 @@ export default function contact() {
       <section class="page">
       <h1 class="heading">Contact Us</h1>
       <div class="contact-info">
-         <p class="main-email">All general questions should be directed to <u>nhs@bxscience.edu</u>. <br></br>If you wish
+         <p >All general questions should be directed to <u>nhs@bxscience.edu</u>. <br></br>If you wish
             to contact officers or advisors individually, their information is <a class="link" href="/about#board">here</a>.</p>
       </div>
       <br></br>

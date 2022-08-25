@@ -55,7 +55,6 @@ export default function Home() {
         <div class="numbers">
           <div class="numbers-item numbers-item-1">
             <FontAwesomeIcon className="numbers-item numbers-icon" icon={faPeopleGroup}></FontAwesomeIcon>
-            {/* <i class="numbers-item fa-solid fa-people-group numbers-icon"></i> */}
             <h4>400+ Members</h4>
           </div>
           <div class="numbers-item numbers-item-1">
@@ -72,9 +71,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-      <br></br>
-      <br></br>
-      <br></br>
     </>
   );
 }

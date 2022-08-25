@@ -30,7 +30,7 @@ export default function Footer(){
             <h2>Connect</h2>
             <a href="/contact">Contact Us</a>
             <a href="/tutoring">Tutoring</a>
-            <a href="/faq">Fequently Asked Questions</a>
+            <a href="/faq">FAQ</a>
           </div>
         </div>
         <p>Bronx Science National Honor Society | Website by Jeffrey Li ’23</p>
