@@ -132,7 +132,7 @@ h1.nhs-name {
 
 @media (max-width:475px){
    .states-item-2{
-      font-size:70px;
+      font-size:39px;
       margin-left: 10px;
       margin-right: 10px;
       transform: translateY(-30px);
@@ -329,6 +329,7 @@ h1.heading {
 @media (max-width:475px){
    h1.heading{
       font-size:50px;
+      padding-top: 30px;
    }
 }
 
@@ -349,6 +350,7 @@ h1.heading {
 @media (max-width:475px){
    .contact-info{
       font-size:20px;
+      padding: 60px;
    }
 }
 
@@ -363,6 +365,18 @@ h1.heading {
    color: #204559;
    border-radius: 10px;
    padding-bottom: 30px;
+}
+
+@media (max-width:475){
+   .body-text{
+      margin: 10px;
+   }
+}
+
+@media (max-width:700px){
+   .body-text{
+      margin: 30px;
+   }
 }
 
 @media (max-width:700px){
@@ -422,7 +436,7 @@ h1.heading {
 
 @media (max-width:475px){
    .body-text{
-      margin: 0px 80px;
+      margin: 0px 39px;
    }
 }
 
@@ -442,7 +456,7 @@ h1.heading {
 
 @media (max-width:800px){
    .page-section-buttons{
-      padding-bottom:60px;
+      padding-bottom:39px;
    }
 }
 
@@ -526,7 +540,7 @@ h1.heading {
       width: 125px;
    }
    .application-button {
-      width: 300px;
+      width: 200px;
       font-size: 18px;
    }
 }
