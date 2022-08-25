@@ -171,7 +171,7 @@ h1.nhs-name {
 @media (max-width:475px){
    .states-item-2{
       font-size:55px;
-      transform: translateY(-30px);
+      transform: translateY(-60px);
    }
 }
 
