@@ -130,15 +130,6 @@ h1.nhs-name {
    text-shadow: #276d78 1px 3px 6px;
 }
 
-@media (max-width:475px){
-   .states-item-2{
-      font-size:39px;
-      margin-left: 10px;
-      margin-right: 10px;
-      transform: translateY(-30px);
-   }
-}
-
 .home-images {
    border-radius: 5px;
    width: 100%;
@@ -174,6 +165,15 @@ h1.nhs-name {
 
    .home-images {
       justify-content: center;
+   }
+}
+
+@media (max-width:475px){
+   .states-item-2{
+      font-size:39px;
+      margin-left: 10px;
+      margin-right: 10px;
+      transform: translateY(-30px);
    }
 }
 
@@ -369,7 +369,7 @@ h1.heading {
 
 @media (max-width:475){
    .body-text{
-      margin: 10px;
+      margin: 7px;
    }
 }
 
@@ -535,16 +535,6 @@ h1.heading {
    flex-direction: column;
 }
 
-@media (max-width:475px){
-   .button-27{
-      width: 125px;
-   }
-   .application-button {
-      width: 200px;
-      font-size: 18px;
-   }
-}
-
 @media (max-width:780px) {
    .button-27 {
       width: 200px;
@@ -552,6 +542,16 @@ h1.heading {
 
    .application-button {
       width: 399px;
+   }
+}
+
+@media (max-width:475px){
+   .button-27{
+      width: 150px;
+   }
+   .application-button {
+      width: 250px;
+      font-size: 18px;
    }
 }
 
