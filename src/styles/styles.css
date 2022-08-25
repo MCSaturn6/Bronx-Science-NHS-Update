@@ -138,7 +138,6 @@ h1.nhs-name {
 
 @media (max-width:1280px) {
    .stats-item-2 {
-      font-size: 90px;
       width: 500px;
       margin-top: -40px;
    }
@@ -158,6 +157,7 @@ h1.nhs-name {
 
 @media (max-width:560px) {
    .stats-item-2 {
+      font-size: 70px;
       order: 1;
       padding-bottom: 60px;
       transform: translateY(-60px);
@@ -170,9 +170,7 @@ h1.nhs-name {
 
 @media (max-width:475px){
    .states-item-2{
-      font-size:39px;
-      margin-left: 10px;
-      margin-right: 10px;
+      font-size:55px;
       transform: translateY(-30px);
    }
 }
@@ -548,6 +546,7 @@ h1.heading {
 @media (max-width:475px){
    .button-27{
       width: 150px;
+      font-size:20px;
    }
    .application-button {
       width: 250px;
