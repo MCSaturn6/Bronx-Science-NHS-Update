@@ -191,9 +191,11 @@ h1.nhs-name {
 }
 
 .numbers-heading {
+   padding-top:60px;
    text-align: center;
    color: #204559;
    font-size: 65px;
+   font-weight:bold;
 }
 
 .meet {
