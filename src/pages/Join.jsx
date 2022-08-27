@@ -5,16 +5,10 @@ export default function join() {
     <section class="page">
       <h1 class="heading">Applying to NHS</h1>
       <div class="page-section-buttons">
-        <a href="#junior-req">
+        <a href="#req">
           {" "}
           <button class="button-27" role="button">
-            Junior
-          </button>
-        </a>
-        <a href="#senior-req">
-          {" "}
-          <button class="button-27" role="button">
-            Senior
+            Requirements
           </button>
         </a>
         <a href="#credit-table">
@@ -34,12 +28,13 @@ export default function join() {
             includes joining clubs, partaking in school volunteering
             opportunities, out-of-school community service, and leadership
             opportunities. So start early!
-            <br></br><br></br>
+            <br></br>
+            <br></br>
             Once you are accepted as a junior, you don't need to reapply if you
             weren't dismissed. (Read more about dismissal in Current Members).
-            <br></br><br></br>
+            <br></br>
+            <br></br>
             Before applying, please note the following:
-            
           </p>
           <ul>
             <br></br>
@@ -72,91 +67,77 @@ export default function join() {
           </a>
         </div>
 
-        <h2 id="junior-req" class="body-text-heading-2">
-          Junior Requirements
+
+        <h2 id="req" class="body-text-heading-2">
+          Requirements
+          <br></br>
+          <br></br>
+          <br></br>
         </h2>
-        <div class="page-body-text">
-          <h3>Entering as a Freshmen</h3>
-          <ul>
-            <br></br>
-            <li>
-              <b>Scholarship:</b> At least a __ overall average (what you see on
-              your final transcript or GPA on naviance).
-            </li>
-            <li>
-              <b>Service:</b> At least __.
-            </li>
-            <li>
-              <b>Leadership and Citizenship:</b> At least __.
-            </li>
-          </ul>
-          <br></br>
 
-          <h3>Entering as a Sophomore</h3>
-          <ul>
-            <br></br>
-            <li>
-              <b>Scholarship:</b> At least a __ overall average (what you see on
-              your final transcript or GPA on naviance).
-            </li>
-            <li>
-              <b>Service:</b> At least __.
-            </li>
-            <li>
-              <b>Leadership and Citizenship:</b> At least __.
-            </li>
-          </ul>
-          <br></br>
-          <p class=".page-body-text">
-            Credits for activities are determined in the table below.
-          </p>
-        </div>
-
-        <h2 id="senior-req" class="body-text-heading-2">
-          Senior Requirements
-        </h2>
-        <div class="page-body-text">
-          <h3>Entering as a Freshmen</h3>
-          <ul>
-            <br></br>
-            <li>
-              <b>Scholarship:</b> At least a __ overall average (what you see on
-              your final transcript or GPA on naviance).
-            </li>
-            <li>
-              <b>Service:</b> At least __.
-            </li>
-            <li>
-              <b>Leadership and Citizenship:</b> At least __.
-            </li>
-          </ul>
-          <br></br>
-          
-
-          <h3>Entering as a Sophomore</h3>
-          <ul>
-            <br></br>
-            <li>
-              <b>Scholarship:</b> At least a __ overall average (what you see on
-              your final transcript or GPA on naviance).
-            </li>
-            <li>
-              <b>Service:</b> At least __.
-            </li>
-            <li>
-              <b>Leadership and Citizenship:</b> At least __.
-            </li>
-          </ul>
-          <br></br>
-          <p class=".page-body-text">
-            Credits for activities are determined in the table below.
-          </p>
+        <div class="page-body-text text-center">
+          <table class="table table-bordered table-hover ">
+            <thead>
+              <tr>
+                <th className="bg-blue-500 text-3xl th-current-grade" colspan="6" scope="col">Current Grade</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="text-2xl font-bold">
+                <th clasName="hidden" scope="row"></th>
+                <td colspan="2">Junior</td>
+                <td colspan="2">Senior</td>
+              </tr>
+              <tr className="text-xl font-bold">
+                <th scope="row"></th>
+                <td bgcolor="red">Freshman</td>
+                <td>Sophomore</td>
+                <td>Freshman</td>
+                <td>Sophomore</td>
+              </tr>
+              <tr>
+                <th scope="row">Credit Type</th>
+                <td>#</td>
+                <td>#</td>
+                <td>#</td>
+                <td>#</td>
+              </tr>
+              <tr>
+                <th scope="row">Scholarship</th>
+                <td>#</td>
+                <td>#</td>
+                <td>#</td>
+                <td>#</td>
+              </tr>
+              <tr>
+                <th scope="row">Service</th>
+                <td>#</td>
+                <td>#</td>
+                <td>#</td>
+                <td>#</td>
+              </tr>
+              <tr>
+                <th scope="row">Leadership</th>
+                <td>#</td>
+                <td>#</td>
+                <td>#</td>
+                <td>#</td>
+              </tr>
+              <tr>
+                <th scope="row">Citizenship</th>
+                <td>#</td>
+                <td>#</td>
+                <td>#</td>
+                <td>#</td>
+              </tr>
+            </tbody>
+          </table>
         </div>
 
         <h2 id="credit-table" class="body-text-heading-2">
           Credit Table
         </h2>
-        <div class="page-body-text"></div>
+
       </section>
       <br></br>
       <br></br>

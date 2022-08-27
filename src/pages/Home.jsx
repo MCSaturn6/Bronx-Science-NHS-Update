@@ -12,7 +12,7 @@ export default function Home() {
 
       <section class="home-bottom-half">
         <div className="stats-container">
-          <div className="stats-item stats-item-1">
+          <div className="stats-item stats-item-3">
             <img
               className="home-images"
               src={require("../images/johann-sitting-open-house.png")}
@@ -32,7 +32,7 @@ export default function Home() {
         </div>
 
         <div class="stats-container">
-          <div class="stats-item stats-item-1">
+          <div class="stats-item stats-item-3">
             <img
               class="home-images"
               src={require("../images/johann-sitting-open-house.png")}

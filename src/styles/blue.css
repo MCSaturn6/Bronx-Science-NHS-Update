@@ -13,21 +13,9 @@
    font-family: 'Josefin Sans', sans-serif;
 }
 
-:root{
-   --dark: #014f43;
-   --hover-dark: #00705f;
-   --light-dark:#04a089;
-   /* --text-color: #fff; */
-   --whiteish:#ebfaf8;
-
-
-}
-
 .home-first-half {
    margin-top:-10px;
-   background-image: url(../images/nhs-landing-10.png);
-   background-repeat: no-repeat;
-   background-size: 100%;
+   background-image: url(../images/nhs-landing-3.png);
    height: 100vh;
 }
 
@@ -36,7 +24,7 @@
 }
 .navbar {
    height: 70px;
-   background-color: var(--dark);
+   background-color: #204559;
 }
 
 .navbar-brand {
@@ -59,13 +47,13 @@
 }
 
 .nav-item {
-   background-color: var(--dark);
+   background-color: #204559;
    padding: 15px;
    text-align: center;
 }
 
 .nav-item:hover {
-   background-color: var(--hover-dark);
+   background-color: #274d61;
    transition: all 0.3s;
 }
 
@@ -74,7 +62,7 @@
 }
 
 .page {
-   background-image: url(../images/nhs-landing-8.png);
+   background-image: url(../images/nhs-landing-3.png);
    height: auto;
    list-style-type:square;
 }
@@ -112,7 +100,7 @@ h1.nhs-name {
 }
 
 .home-bottom-half {
-   background-color: var(--whiteish);
+   background-color: #ecf6f8;
    height: auto;
 }
 
@@ -134,27 +122,12 @@ h1.nhs-name {
    width: 600px;
 }
 
-.stats-item-3 {
-   height: 500px;
-   width: 600px;
-}
-
-.stats-item-1:hover{
-   transform: translateX(30px);
-   transition: all 0.5s;
-}
-
-.stats-item-3:hover{
-   transform: translateX(-30px);
-   transition: all 0.5s;
-}
-
 .stats-item-2 {
    width: 600px;
    font-size: 100px;
-   color: var(--dark);
+   color: #204559;
    font-weight: bold;
-   text-shadow: var(--hover-dark) 1px 3px 6px;
+   text-shadow: #276d78 1px 3px 6px;
 }
 
 .home-images {
@@ -205,7 +178,7 @@ h1.nhs-name {
 .numbers {
    border-radius: 10px;
    height: 350px;
-   background-color: var(--hover-dark);
+   background-color: #2a706c;
    margin: 0px 80px;
    padding-bottom: 25px;
    transform: translateY(-60px);
@@ -247,15 +220,10 @@ h1.nhs-name {
    font-size: 90px;
 }
 
-.numbers-icon:hover{
-   transform: translateY(-10px);
-   transition: all 0.5s;
-}
-
 .numbers-heading {
    padding-top:150px;
    text-align: center;
-   color: var(--dark);
+   color: #204559;
    font-size: 65px;
    font-weight:bold;
    transform: translateY(-60px);
@@ -269,7 +237,7 @@ h1.nhs-name {
 
 .meet {
    margin: 60px;
-   color: var(--dark);
+   color: #206569;
    font-size: 50px;
    font-weight: 600;
    text-align: center
@@ -291,7 +259,7 @@ h1.nhs-name {
 
 .flexbox-item {
    margin: 20px 60px;
-   background-color: var(--dark);
+   background-color: #206569;
    border-radius: 6px;
    padding: 30px;
    line-height: 1.15em;
@@ -321,7 +289,7 @@ h1.nhs-name {
 
 i.fa-circle-user {
    font-size: 150px;
-   color: var(--dark);
+   color: #206569;
    padding-top: 30px;
 }
 
@@ -365,9 +333,9 @@ h1.heading {
 
 .contact-info {
    height: 50vh;
-   background-color: var(--whiteish);
+   background-color: #ecf6f8;
    margin: 0px 60px;
-   color: var(--dark);
+   color: #204559;
    border-radius: 10px;
    display: flex;
    justify-content: center;
@@ -389,10 +357,10 @@ h1.heading {
 /* frame */
 .body-text { 
    height: auto;
-   background-color: var(--whiteish);
+   background-color: #ecf6f8;
    margin: 60px;
    margin-bottom:0px;
-   color: var(--dark);
+   color: #204559;
    border-radius: 10px;
    padding-bottom: 30px;
 }
@@ -417,7 +385,7 @@ h1.heading {
 
 .body-text-heading-2 {
    font-size: 35px;
-   color: var(--dark);
+   color: #204559;
    text-align: center;
    padding-top: 90px;
    line-height: 1.15em;
@@ -431,7 +399,7 @@ h1.heading {
 }
 
 .announcement-date {
-   color: var(--dark);
+   color: #204559;
    font-size: 22px;
    margin: 60px;
    margin-bottom: -50px;
@@ -439,7 +407,7 @@ h1.heading {
 
 .announcement-content {
    padding: 0px;
-   color: var(--dark);
+   color: #204559;
    font-size: 16px;
    margin: 60px;
    line-height: 1.15em;
@@ -496,10 +464,11 @@ h1.heading {
 
 .button-27 {
    appearance: none;
-   background-color: var(--whiteish);
+   background-color: #ecf6f8;
+   border: 2px solid #ecf6f8;
    border-radius: 10px;
    box-sizing: border-box;
-   color: var(--dark);
+   color: #206569;
    cursor: pointer;
    display: inline-block;
    font-family: 'Josefin Sans', sans-serif;
@@ -521,7 +490,7 @@ h1.heading {
    width: 250px;
    will-change: transform;
 
-   box-shadow: var(--hover-dark) 0 8px 15px;
+   box-shadow: #276d78 0 8px 15px;
    display: flex;
    align-items: center;
    text-align: center;
@@ -534,10 +503,12 @@ h1.heading {
 }
 
 .button-27:hover {
-   box-shadow: var(--hover-dark) 0 8px 15px;
+   box-shadow: #276d78 0 8px 15px;
    transform: translateY(-2px);
+   border-color: #204559;
    color: white;
-   background-color: var(--dark);
+   fill: #204559;
+   background-color: #204559;
 }
 
 .button-27:active {
@@ -547,10 +518,10 @@ h1.heading {
 
 .application-button {
    width: 500px;
-   background-color: var(--dark);
+   background-color: #204559;
    color: white;
-   box-shadow: var(--hover-dark) 0 8px 15px;
-   border-color: var(--dark);
+   box-shadow: #276d78 0 8px 15px;
+   border-color: #204559;
    font-size:25px;
 }
 
@@ -601,22 +572,23 @@ h1.heading {
 }
 
 .nhs-spread-image:hover {
-   border: 3px solid var(--dark);
+   border: 3px solid #204559;
    transform: scale(1.03);
    transition: all 0.3s;
    cursor: pointer;
 }
 
 .footer-container {
-   background-color: var(--dark);
+   background-color: #204559;
    padding-bottom: 3rem;
 }
 
 .footer {
    padding-top: 45px;
    width: 90%;
+   /* height: 22vh; */
    height: auto;
-   background-color: var(--dark);
+   background-color: #204559;
    color: white;
    display: flex;
    justify-content: space-around;
@@ -662,16 +634,6 @@ h1.heading {
 }
 
 .footer-heading a:hover {
-   color: var(--hover-dark);
+   color: #77a2aa;
    transition: all 0.3s;
-}
-
-tr th.th-current-grade{
-   background-color: var(--dark);
-   color:white;
-}
-
-table.table{
-   color:var(--dark);
-   border: 1px solid black;
 }
