@@ -67,7 +67,6 @@ export default function join() {
           </a>
         </div>
 
-
         <h2 id="req" class="body-text-heading-2">
           Requirements
           <br></br>
@@ -76,68 +75,98 @@ export default function join() {
         </h2>
 
         <div class="page-body-text text-center">
-          <table class="table table-bordered table-hover ">
+        <table class="table table-bordered table-hover ">
             <thead>
               <tr>
-                <th className="bg-blue-500 text-3xl th-current-grade" colspan="6" scope="col">Current Grade</th>
+                <th
+                  className="bg-blue-500 text-3xl th-current-grade"
+                  colspan="6"
+                  scope="col"
+                >
+                  Applying as a Junior
+                </th>
               </tr>
             </thead>
             <tbody>
-              <tr className="text-2xl font-bold">
-                <th clasName="hidden" scope="row"></th>
-                <td colspan="2">Junior</td>
-                <td colspan="2">Senior</td>
-              </tr>
               <tr className="text-xl font-bold">
-                <th scope="row"></th>
-                <td bgcolor="red">Freshman</td>
-                <td>Sophomore</td>
-                <td>Freshman</td>
-                <td>Sophomore</td>
+                <th>Credit Type</th>
+                <th >Freshman</th>
+                <th>Sophomore</th>
               </tr>
-              <tr>
-                <th scope="row">Credit Type</th>
-                <td>#</td>
-                <td>#</td>
-                <td>#</td>
-                <td>#</td>
-              </tr>
-              <tr>
+
+              <tr className="font-500">
                 <th scope="row">Scholarship</th>
                 <td>#</td>
                 <td>#</td>
-                <td>#</td>
-                <td>#</td>
               </tr>
-              <tr>
+              <tr className="font-500">
                 <th scope="row">Service</th>
                 <td>#</td>
                 <td>#</td>
-                <td>#</td>
-                <td>#</td>
               </tr>
-              <tr>
+              <tr className="font-500">
                 <th scope="row">Leadership</th>
                 <td>#</td>
                 <td>#</td>
-                <td>#</td>
-                <td>#</td>
               </tr>
-              <tr>
+              <tr className="font-500">
                 <th scope="row">Citizenship</th>
                 <td>#</td>
-                <td>#</td>
-                <td>#</td>
-                <td>#</td>
+                <td>10</td>
               </tr>
             </tbody>
           </table>
+          <br></br>
+          <br></br>
+          <br></br>
+
+          <table class="table table-bordered table-hover ">
+            <thead>
+              <tr>
+                <th
+                  className="bg-blue-500 text-3xl th-current-grade"
+                  colspan="6"
+                  scope="col"
+                >
+                  Applying as a Senior
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="text-xl font-bold">
+                <th>Credit Type</th>
+                <th >Freshman</th>
+                <th>Sophomore</th>
+              </tr>
+
+              <tr className="font-500">
+                <th scope="row">Scholarship</th>
+                <td>#</td>
+                <td>#</td>
+              </tr>
+              <tr className="font-500">
+                <th scope="row">Service</th>
+                <td>#</td>
+                <td>#</td>
+              </tr>
+              <tr className="font-500">
+                <th scope="row">Leadership</th>
+                <td>#</td>
+                <td>#</td>
+              </tr>
+              <tr className="font-500">
+                <th scope="row">Citizenship</th>
+                <td>#</td>
+                <td>10</td>
+              </tr>
+            </tbody>
+          </table>
+
         </div>
 
         <h2 id="credit-table" class="body-text-heading-2">
           Credit Table
         </h2>
-
       </section>
       <br></br>
       <br></br>

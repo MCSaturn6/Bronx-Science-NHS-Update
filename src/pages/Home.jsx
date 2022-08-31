@@ -51,7 +51,7 @@ export default function Home() {
           </div>
         </div>
 
-        <h2 className="numbers-heading">NHS 2021-2022</h2>
+        <h2 className="numbers-heading">Bronx Science NHS 2021-2022</h2>
         <div class="numbers">
           <div class="numbers-item numbers-item-1">
             <FontAwesomeIcon className="numbers-item numbers-icon" icon={faPeopleGroup}></FontAwesomeIcon>

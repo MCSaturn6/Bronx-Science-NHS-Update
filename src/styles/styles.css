@@ -17,7 +17,8 @@
    --dark: #014f43;
    --hover-dark: #00705f;
    --light-dark:#04a089;
-   /* --text-color: #fff; */
+   --yellow: #e7cc0e;
+   --darker-yellow:#e0ce0f;
    --whiteish:#ebfaf8;
 
 
@@ -34,6 +35,7 @@
 .faBars{
    color:white;
 }
+
 .navbar {
    height: 70px;
    background-color: var(--dark);
@@ -50,7 +52,8 @@
    }
 }
 
-.navbar-brand:hover {
+a.navbar-brand:hover {
+   color: var(--yellow);
    transition: all 0.3s;
 }
 
@@ -65,7 +68,7 @@
 }
 
 .nav-item:hover {
-   background-color: var(--hover-dark);
+   background-color: var(--yellow);
    transition: all 0.3s;
 }
 
@@ -155,6 +158,7 @@ h1.nhs-name {
    color: var(--dark);
    font-weight: bold;
    text-shadow: var(--hover-dark) 1px 3px 6px;
+   border-bottom: 10px solid var(--yellow);
 }
 
 .home-images {
@@ -228,7 +232,7 @@ h1.nhs-name {
    text-align: center;
    padding: 35px;
    font-size: 25px;
-   color: white;
+   color:var(--yellow);
 }
 
 @media (max-width:1168px) {
@@ -245,6 +249,7 @@ h1.nhs-name {
 
 .numbers-icon {
    font-size: 90px;
+   color:white;
 }
 
 .numbers-icon:hover{
@@ -254,6 +259,7 @@ h1.nhs-name {
 
 .numbers-heading {
    padding-top:150px;
+   padding-bottom:30px;
    text-align: center;
    color: var(--dark);
    font-size: 65px;
@@ -416,10 +422,11 @@ h1.heading {
 }
 
 .body-text-heading-2 {
-   font-size: 35px;
-   color: var(--dark);
+   font-size: 50px;
+   color:var(--yellow);
    text-align: center;
    padding-top: 90px;
+   padding-bottom:15px;
    line-height: 1.15em;
    font-weight: bold;
 }
@@ -496,10 +503,10 @@ h1.heading {
 
 .button-27 {
    appearance: none;
-   background-color: var(--whiteish);
+   background-color: var(--yellow);
    border-radius: 10px;
    box-sizing: border-box;
-   color: var(--dark);
+   color: white;
    cursor: pointer;
    display: inline-block;
    font-family: 'Josefin Sans', sans-serif;
@@ -535,9 +542,9 @@ h1.heading {
 
 .button-27:hover {
    box-shadow: var(--hover-dark) 0 8px 15px;
-   transform: translateY(-2px);
+   transform: translateY(-3px);
    color: white;
-   background-color: var(--dark);
+   background-color: var(--hover-dark);
 }
 
 .button-27:active {
@@ -547,9 +554,9 @@ h1.heading {
 
 .application-button {
    width: 500px;
-   background-color: var(--dark);
+   background-color: var(--yellow);
    color: white;
-   box-shadow: var(--hover-dark) 0 8px 15px;
+   box-shadow: var(--hover-dark) 0 5px 5px;
    border-color: var(--dark);
    font-size:25px;
 }
@@ -622,7 +629,7 @@ h1.heading {
    justify-content: space-around;
    flex-wrap: wrap;
    margin: 0 auto;
-   border-bottom: 0.6px solid white;
+   border-bottom: 0.75px solid var(--whiteish);
    border-spacing: 10px;
 }
 
@@ -652,6 +659,7 @@ h1.heading {
 .footer-heading h2 {
    margin-bottom: 0.6rem;
    font-size: 22px;
+   font-weight:bold;
 }
 
 .footer-heading a {
@@ -674,4 +682,9 @@ tr th.th-current-grade{
 table.table{
    color:var(--dark);
    border: 1px solid black;
+   transform: translateY(-90px);
+}
+
+td{
+   color:var(--yellow);
 }
