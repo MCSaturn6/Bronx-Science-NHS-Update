@@ -1,4 +1,8 @@
 import React, { Component } from "react";
+import Timer from "../components/Timer.jsx";
+import "../styles/timer.css";
+import "../styles/styles.css";
+import "../scripts/timer.js"
 
 export default function join() {
   return (
@@ -66,6 +70,9 @@ export default function join() {
             </button>
           </a>
         </div>
+
+        <Timer/>
+        
 
         <h2 id="req" class="body-text-heading-2">
           Requirements

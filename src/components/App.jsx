@@ -2,6 +2,7 @@ import React, { Component } from "react";
 import { Routes, Route } from "react-router-dom";
 import "bootstrap/dist/css/bootstrap.css";
 import "bootstrap/dist/js/bootstrap.js";
+// import "../styles/timer.css";
 import "../styles/styles.css";
 
 import Navbar from "./Navbar.jsx";
