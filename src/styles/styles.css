@@ -130,6 +130,7 @@ h1.nhs-name {
 
 .stats-item {
    margin: 10px;
+   transition: all 0.5s;
 }
 
 .stats-item-1 {
@@ -233,6 +234,7 @@ h1.nhs-name {
    padding: 35px;
    font-size: 25px;
    color:var(--yellow);
+   transition: all 0.5s;
 }
 
 @media (max-width:1168px) {
@@ -683,6 +685,9 @@ table.table{
    color:var(--dark);
    border: 1px solid black;
    transform: translateY(-90px);
+   width:70%;
+   margin-left: auto;
+   margin-right: auto;
 }
 
 td{
