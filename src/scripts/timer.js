@@ -1,52 +1,45 @@
-const countToDate = new Date().setHours(new Date().getHours() + 24)
-let previousTimeBetweenDates
-setInterval(() => {
-  const currentDate = new Date()
-  const timeBetweenDates = Math.ceil((countToDate - currentDate) / 1000)
-  flipAllCards(timeBetweenDates)
-
-  previousTimeBetweenDates = timeBetweenDates
-}, 250)
-
-function flipAllCards(time) {
-  const seconds = time % 60
-  const minutes = Math.floor(time / 60) % 60
-  const hours = Math.floor(time / 3600)
-  // const days = 
-
-  flip(document.querySelector("[data-hours-tens]"), Math.floor(hours / 10))
-  flip(document.querySelector("[data-hours-ones]"), hours % 10)
-  flip(document.querySelector("[data-minutes-tens]"), Math.floor(minutes / 10))
-  flip(document.querySelector("[data-minutes-ones]"), minutes % 10)
-  flip(document.querySelector("[data-seconds-tens]"), Math.floor(seconds / 10))
-  flip(document.querySelector("[data-seconds-ones]"), seconds % 10)
+let dayBox = document.getElementById("day-box");
+let hrBox = document.getElementById("hr-box");
+let minBox = document.getElementById("min-box");
+let secBox = document.getElementById("sec-box");
+//Format: Date(year, month, day, hour, minute)
+//Year is counter from 0 to 11
+let endDate = new Date(2022, 10, 5, 16, 30);
+//Output value in milliseconds
+let endTime = endDate.getTime();
+function countdown() {
+  let todayDate = new Date();
+  //Output value in milliseconds
+  let todayTime = todayDate.getTime();
+  let remainingTime = endTime - todayTime;
+  //60sec => 1000 milliseconds
+  let oneMin = 60 * 1000;
+  //1hr => 60 minutes
+  let oneHr = 60 * oneMin;
+  //1 day => 24 hours
+  let oneDay = 24 * oneHr;
+  //Function to format number if it is single digit
+  let addZeroes = (num) => (num < 10 ? `0${num}` : num);
+  //If end dat is before today date
+  if (endTime < todayTime) {
+    clearInterval(i);
+    document.querySelector(
+      ".countdown"
+    ).innerHTML = `<h1>Countdown had expired!</h1>`;
+  }
+  //If end date is not before today date
+  else {
+    //Calculating remaining days, hrs,mins ,secs
+    let daysLeft = Math.floor(remainingTime / oneDay);
+    let hrsLeft = Math.floor((remainingTime % oneDay) / oneHr);
+    let minsLeft = Math.floor((remainingTime % oneHr) / oneMin);
+    let secsLeft = Math.floor((remainingTime % oneMin) / 1000);
+    //Displaying Valurs
+    dayBox.textContent = addZeroes(daysLeft);
+    hrBox.textContent = addZeroes(hrsLeft);
+    minBox.textContent = addZeroes(minsLeft);
+    secBox.textContent = addZeroes(secsLeft);
+  }
 }
-
-function flip(flipCard, newNumber) {
-  const topHalf = flipCard.querySelector(".top")
-  const startNumber = parseInt(topHalf.textContent)
-  if (newNumber === startNumber) return
-
-  const bottomHalf = flipCard.querySelector(".bottom")
-  const topFlip = document.createElement("div")
-  topFlip.classList.add("top-flip")
-  const bottomFlip = document.createElement("div")
-  bottomFlip.classList.add("bottom-flip")
-
-  window.top.textContent = startNumber
-  bottomHalf.textContent = startNumber
-  topFlip.textContent = startNumber
-  bottomFlip.textContent = newNumber
-
-  topFlip.addEventListener("animationstart", e => {
-    topHalf.textContent = newNumber
-  })
-  topFlip.addEventListener("animationend", e => {
-    topFlip.remove()
-  })
-  bottomFlip.addEventListener("animationend", e => {
-    bottomHalf.textContent = newNumber
-    bottomFlip.remove()
-  })
-  flipCard.append(topFlip, bottomFlip)
-}
+let i = setInterval(countdown, 1000);
+countdown();

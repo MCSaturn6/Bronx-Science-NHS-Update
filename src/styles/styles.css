@@ -20,8 +20,6 @@
    --yellow: #e7cc0e;
    --darker-yellow:#e0ce0f;
    --whiteish:#ebfaf8;
-
-
 }
 
 .home-first-half {
@@ -77,7 +75,7 @@ a.navbar-brand:hover {
 }
 
 .page {
-   background-image: url(../images/nhs-landing-8.png);
+   background-image: url(../images/nhs-landing-10.png);
    height: auto;
    list-style-type:square;
 }
@@ -121,7 +119,7 @@ h1.nhs-name {
 
 .stats-container {
    display: flex;
-   justify-content: center;
+   justify-content: space-around;
    align-items: center;
    flex-wrap: wrap;
    padding: 20px;
@@ -398,7 +396,7 @@ h1.heading {
 .body-text { 
    height: auto;
    background-color: var(--whiteish);
-   margin: 60px;
+   margin: 30px;
    margin-bottom:0px;
    color: var(--dark);
    border-radius: 10px;
@@ -436,6 +434,9 @@ h1.heading {
 @media (max-width:475px){
    .body-text-heading-2 {
       font-size: 28px;
+   }
+   .body-text{
+      margin:15px;
    }
 }
 
