@@ -71,7 +71,6 @@ export default function join() {
           </a>
         </div>
 
-        <Timer/>
         
 
         <h2 id="req" class="body-text-heading-2">
