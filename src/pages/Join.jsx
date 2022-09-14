@@ -25,7 +25,7 @@ export default function join() {
       <section class="body-text">
         <div class="page-body-text">
           <p class="join-intro">
-            Bronx Science students can apply to NHS in the spring of their
+            <u><b>PLEASE READ BEFORE PROCEEDING.</b></u> Bronx Science students can apply to NHS in the spring of their
             junior year or in the fall of their senior year. However, your
             application ultimately depends on your activities as a Freshmen and
             Sophomore (and Junior if you apply as a Senior in the fall). This
@@ -34,33 +34,32 @@ export default function join() {
             opportunities. So start early!
             <br></br>
             <br></br>
+            See the requirements below for the number of credits needed to apply. Credits are determined in the credit table below.
             Once you are accepted as a junior, you don't need to reapply if you
             weren't dismissed. (Read more about dismissal in Current Members).
             <br></br>
-            <br></br>
-            Before applying, please note the following:
           </p>
           <ul>
             <br></br>
             <li>
-              <b>Deadline:</b> __________.
-            </li>
-            <li>
               Incomplete and improperly submitted applications will not be
-              considered.
+              considered. 
+              <br></br><br></br>
+              <div className="text-red-700"> Any applicant that is caught forging a teacher's or organization's
+              signature will be rejected from NHS and subject to disciplinary action.</div>
             </li>
             <li>
-              Any applicant that is caught forging a teacher's or organization's
-              signature will be rejected from NHS and subject to disciplinary
-              action.
-            </li>
-            <li>
-              If you have any questions, please read the FAQ. If you still have
+              <br></br>
+              <b>Senior Deadline: Friday, 09/30/22 @ 11:59 PM.</b>
+              <br></br><br></br>
+              <b>Junior Deadline: __/__/22 @ 11:59 PM.</b>
+              <br></br><br></br><br></br>
+              If you have any further questions, please read the FAQ. If you still have
               questions, please email nhs@bxscience.edu.
             </li>
           </ul>
           <br></br>
-        </div>
+        
 
         <div class="page-section-buttons">
           <a href="#">
@@ -102,24 +101,20 @@ export default function join() {
 
               <tr className="font-500">
                 <th scope="row">Scholarship</th>
-                <td>#</td>
-                <td>#</td>
+                <td>90 GPA</td>
+                <td>90 GPA</td>
               </tr>
               <tr className="font-500">
                 <th scope="row">Service</th>
-                <td>#</td>
-                <td>#</td>
+                <td>13</td>
+                <td>8</td>
               </tr>
               <tr className="font-500">
-                <th scope="row">Leadership</th>
-                <td>#</td>
-                <td>#</td>
+                <th scope="row">Leadership & Citizenship</th>
+                <td>50</td>
+                <td>30</td>
               </tr>
-              <tr className="font-500">
-                <th scope="row">Citizenship</th>
-                <td>#</td>
-                <td>10</td>
-              </tr>
+
             </tbody>
           </table>
           <br></br>
@@ -147,23 +142,18 @@ export default function join() {
 
               <tr className="font-500">
                 <th scope="row">Scholarship</th>
-                <td>#</td>
-                <td>#</td>
+                <td>90 GPA</td>
+                <td>90 GPA</td>
               </tr>
               <tr className="font-500">
                 <th scope="row">Service</th>
-                <td>#</td>
-                <td>#</td>
-              </tr>
-              <tr className="font-500">
-                <th scope="row">Leadership</th>
-                <td>#</td>
-                <td>#</td>
-              </tr>
-              <tr className="font-500">
-                <th scope="row">Citizenship</th>
-                <td>#</td>
+                <td>15</td>
                 <td>10</td>
+              </tr>
+              <tr className="font-500">
+                <th scope="row">Leadership & Citizenship</th>
+                <td>60</td>
+                <td>45</td>
               </tr>
             </tbody>
           </table>
@@ -173,6 +163,27 @@ export default function join() {
         <h2 id="credit-table" class="body-text-heading-2">
           Credit Table
         </h2>
+        <div className="credit-table-container">
+        <img
+            className="credit-table-images"
+            src={require("../images/nhs-service-table.png")}
+            />
+            <img
+              className="credit-table-images"
+              src={require("../images/nhs-leadership-table.png")}
+            />
+            <img
+              className="credit-table-images"
+              src={require("../images/nhs-citizenship-table.png")}
+            />
+        </div>
+
+        {/* footnotes */}
+        <p>1 semester = 3 marking periods 
+        <br></br>
+        2 semesters = 1 year</p>
+
+        </div>
       </section>
       <br></br>
       <br></br>

@@ -45,9 +45,9 @@ export default function About() {
             <br></br>
             <br></br>
             To learn more about NHS, visit{" "}
-            <a class="link" href="https://www.nhs.us" target="_blank">
+            <u><a class="link" href="https://www.nhs.us" target="_blank">
               nhs.us.
-            </a>
+            </a></u>
           </p>
         </div>
 
@@ -70,13 +70,13 @@ export default function About() {
               <div class="flexbox-item flexbox-item-1">
                 <div class="name">Mr. DeSilva</div>
                 <div class="position">Advisor</div>
-                <div class="email">@bxscience.edu</div>
+                <div class="email"><u>desilva@bxscience.edu</u></div>
               </div>
 
               <div class="flexbox-item flexbox-item-2">
                 <div class="name">Kaitlyn Youn</div>
                 <div class="position">President</div>
-                <div class="email">@bxscience.edu</div>
+                <div class="email"><u>younk@bxscience.edu</u></div>
               </div>
             </div>
 
@@ -96,21 +96,21 @@ export default function About() {
 
             <div class="flexbox-container">
               <div class="flexbox-item flexbox-item-1">
-                <div class="name">Mr. DeSilva</div>
-                <div class="position">Advisor</div>
-                <div class="email">@bxscience.edu</div>
+                <div class="name">Hannah Nadler</div>
+                <div class="position">VP of Tutoring</div>
+                <div class="email"><u>nadlerh@bxscience.edu</u></div>
               </div>
 
               <div class="flexbox-item flexbox-item-2">
-                <div class="name">Kaitlyn Youn</div>
-                <div class="position">President</div>
-                <div class="email">@bxscience.edu</div>
+                <div class="name">Ridwan Azam</div>
+                <div class="position">VP of Organization</div>
+                <div class="email"><u>azamr@bxscience.edu</u></div>
               </div>
 
               <div class="flexbox-item flexbox-item-2">
-                <div class="name">Kaitlyn Youn</div>
-                <div class="position">President</div>
-                <div class="email">@bxscience.edu</div>
+                <div class="name">Jeffrey Li</div>
+                <div class="position">VP of Technology</div>
+                <div class="email"><u>lij12@bxscience.edu</u></div>
               </div>
             </div>
           </div>
