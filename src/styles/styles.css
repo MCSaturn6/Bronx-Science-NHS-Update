@@ -400,7 +400,7 @@ h1.heading {
    margin-bottom:0px;
    color: var(--dark);
    border-radius: 10px;
-   padding-bottom: 30px;
+   padding-bottom: 60px;
 }
 
 @media (max-width:475){

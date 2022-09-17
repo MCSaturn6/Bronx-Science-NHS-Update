@@ -25,6 +25,7 @@ export default function About() {
           What is NHS?
         </h2>
         <div class="page-body-text">
+
           <p>
             With over 300 members, Bronx Science National Honor Society (NHS)
             elevates the school's commitment to the values of scholarship,

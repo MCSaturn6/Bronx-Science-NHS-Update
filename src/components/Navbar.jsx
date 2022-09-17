@@ -7,9 +7,6 @@ export default function Navbar() {
   return (
       <nav className="navbar sticky-top navbar-expand-lg">
         <div className="container-fluid">
-          {/* <a className="navbar-brand" href="/">
-            Bronx Science NHS
-          </a> */}
           <NavLink className="navbar-brand" to="/">Bronx Science NHS</NavLink>
           <button
             className="navbar-toggler"
@@ -38,6 +35,10 @@ export default function Navbar() {
 
               <li className="nav-item">
               <NavLink className="nav-link" to="/current">Current Members</NavLink>
+              </li>
+
+              <li className="nav-item">
+              <NavLink className="nav-link" to="/outsideopportunities">Outside Opportunities</NavLink>
               </li>
 
               <li className="nav-item">

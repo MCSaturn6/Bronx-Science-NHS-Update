@@ -9,7 +9,6 @@ export default function Home() {
         <h1 class="school-name">Bronx High School of Science</h1>
         <h1 class="nhs-name">National Honor Society</h1>
       </section>
-
       <section class="home-bottom-half">
         <div className="stats-container">
           <div className="stats-item stats-item-3">

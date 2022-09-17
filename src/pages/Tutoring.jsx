@@ -5,43 +5,39 @@ export default function tutoring() {
     <section class="page">
       <h1 class="heading">Tutoring</h1>
       <section class="body-text">
-        <h2 class="body-text-heading-2"></h2>
+        <br></br>
         <div class="page-body-text">
-          <p>
-            Please use the appropriate google forms (links provided below) to
-            submit all tutoring requests. To document tutoring hours, use this
-            form. Then, towards the end of the semester, if you are a current
-            member, upload the form here.
-          </p>
-          <br></br>
-          <br></br>
 
-          <b>
-            <p className="text-3xl text-black">
-              Requesting a Tutor for Students
-            </p>
-          </b>
-          <br></br>
+          <h2 className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8">
+            Student Tutor Request
+          </h2>
           <p>
             Please use this form to request a tutor. Hannah will match tutors
             and tutees according to the subject. If you do not hear back from
             Hannah within a few days, please email her directly at
             nadlerh@bxscience.edu.
           </p>
+          <br></br>
+          <br></br>
 
-          <br></br>
-          <br></br>
-          <b>
-            <p className="text-3xl text-black">
-              Requesting a Tutor for Teachers
-            </p>
-          </b>
-          <br></br>
+          <h2 className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8">
+            Teacher Tutor Request
+          </h2>
           <p>
-            Teachers may request a NHS tutor for their students by submitting
-            this form. Teachers may request a NHS tutor to assist them during
-            SGI by submitting this form.
+          Teachers may request a NHS tutor to assist them during SGI by submitting this form.
           </p>
+          <br></br>
+          <br></br>
+
+          <h2 className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8">
+            Qualifying a Tutor (For Faculty)
+          </h2>
+          <p>
+          Please use this google form to verify that your non-NHS member student is qualified to tutor in the subject that you teach.
+          </p>
+          <br></br>
+          <br></br>
+
         </div>
       </section>
       <br></br>

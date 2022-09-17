@@ -22,8 +22,7 @@ export default function Footer(){
             <h2>Current Members</h2>
             <a href="/current#attendance">Attendance</a>
             <a href="/current#membership">Membership</a>
-            <a href="/current#credits">Credits & Probations</a>
-            <a href="/current#forms">Forms</a>
+            <a href="/current#probations">Probations</a>
           </div>
 
           <div class="footer-heading footer-4">

@@ -23,12 +23,6 @@ export default function current() {
             Probations
           </button>
         </a>
-        <a href="#forms">
-          {" "}
-          <button class="button-27" role="button">
-            Forms
-          </button>
-        </a>
       </div>
 
       <section class="body-text">
@@ -137,9 +131,9 @@ export default function current() {
           <br></br>
           It is the responsibility of every NHS member to verify that his/her
           attendance records are accurate and up-to-date. You must be logged in
-          to your Bronx Science email in order to view these documents.
-          Attendance records for juniors and seniors may be found here. If you
-          have any questions about the attendance policy or your personal
+          to your Bronx Science email in order to view the master spreadsheet.
+          <br></br><br></br>
+          If you have any questions about the attendance policy or your personal
           attendance record, please contact the Vice President of Organization,
           Ridwan Azam at azamr@bxscience.edu.
         </p>
@@ -150,21 +144,34 @@ export default function current() {
         <p class="page-body-text">
           There are 3 levels of probations. Once you hit your third one, you'll
           be dismissed from NHS, following a dismissal email. However, you can
-          always reapply the following year if you are a Junior. You will
-          receive... One Probation Failure to answer an email sent by an NHS
-          Officer, Mr. DeSilva, or another faculty member. Failure to sign up
-          for a mandatory project before a deadline. Failure to attend a project
-          for which you volunteered without notifying an NHS Officer or Mr.
-          DeSilva in advance. 2 excused absences from meetings (each additional
-          absence beyond this equals one level). Submitting a late absence note
-          (please note that absence notes received 24 hours after the meeting
-          will not be considered). Two Probations Failure to attend a mandatory
-          project (unless you have been cleared by the officers). One unexcused
-          absence. (If you receive two unexcused absences, you will be
-          dismissed.) After 3 levels of probations, you will be dismissed from
-          National Honor Society, you will receive an email from the NHS Board
-          stating why you are being dismissed, and your guidance counselor will
-          be notified that you are no longer an NHS member.
+          always reapply the following year if you are a Junior.
+          <br></br><br></br>
+
+          <b>One Probation</b>
+          <br></br> 
+          <b>1. </b>Failure to sign up for a mandatory project before a
+          deadline. 
+          <br></br>
+          <b>2. </b>Failure to attend a project for which you volunteered
+          without notifying an NHS Officer or Mr. DeSilva in advance. 
+          <br></br>
+          <b>3. </b>Two excused absences from meetings (each additional absence beyond this equals one
+          level). 
+          <br></br>
+          <b>4. </b>Submitting a late absence note (please note that absence notes
+          received 24 hours after the meeting will not be considered).
+          
+          <br></br><br></br>
+          
+          <b>Two Probations</b>
+          <br></br> 
+          <b>1. </b>Failure to attend a mandatory project (unless you have been cleared by the officers). 
+          <br></br>
+          <b>2. </b>One unexcused absence. (If you receive two unexcused absences, you will be dismissed.)
+
+          <br></br><br></br>
+
+          <p className="text-red-700">After 3 levels of probations, you will be dismissed from National Honor Society, you will receive an email from the NHS Board stating why you are being dismissed, and your guidance counselor will be notified that you are no longer an NHS member.</p>
         </p>
 
         <h2 id="forms" class="body-text-heading-2">
@@ -175,21 +182,7 @@ export default function current() {
           To be removed from one level of probation, you may complete an extra
           project after you have completed your other project requirements. If
           you go to every NHS meeting and attend your assigned NHS activities,
-          you won't ever need this! Note that you can't clear probations once
-          you hit 3 probations. Example 1: An NHS member decides to skip an NHS
-          meeting without submitting an absence note and is assigned two levels
-          of probation. Later in the semester, the same NHS member completes two
-          additional projects and is removed from probation. Example 2: An NHS
-          member misses two meetings (excused absences) and is given one level
-          of probation. The following week, they fail to attend a mandatory
-          project and are given two additional levels of probation. If they get
-          one more level of probation, they will be dismissed from NHS. Example
-          3: An NHS member decides to skip a project for which they volunteered
-          and is given one level of probation. The following week, they decide
-          to skip a meeting without providing an absence note and receive two
-          additional levels of probation. Finally, they fail to sign up for a
-          mandatory project before a given deadline and are dismissed from NHS
-          because they have exceeded three levels of probation.
+          you won't ever need this!
         </p>
       </section>
       <br></br>
