@@ -154,7 +154,7 @@ export default function FAQ() {
               <b>How many tutoring hours can I do outside of school?</b>
             </li>
             <br></br>
-            <p></p>
+            <p>There is no limit to the number of hours you can do outside of school.</p>
             <br></br>
 
             <li>
@@ -165,7 +165,7 @@ export default function FAQ() {
               </b>
             </li>
             <br></br>
-            <p></p>
+            <p>You will need a teacher to qualify you as a tutor. More information about that under <a href="/tutoring">Tutoring</a>.</p>
             <br></br>
           </ol>
         </div>
@@ -177,7 +177,7 @@ export default function FAQ() {
               <b>How do I request a tutor?</b>
             </li>
             <br></br>
-            <p></p>
+            <p>Submit the form linked under <a href="/tutoring">Tutoring</a>.</p>
             <br></br>
 
             <li>
@@ -198,8 +198,7 @@ export default function FAQ() {
             </li>
             <br></br>
             <p>
-              Have your child fill out the [LINK HERE] Tutoring Request form
-              (there is no paper form) and he/she will be matched with a NHS
+              Have your child fill out the Tutoring Request form for all students under <a href="/tutoring">Tutoring</a> (there is no paper form) and he/she will be matched with a NHS
               tutor who can tutor in the requested subject. Students requesting
               a tutor must use their Bronx Science email address.
             </p>

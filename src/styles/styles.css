@@ -717,3 +717,8 @@ td{
       width: 90%;
    }
 }
+
+p a{
+   color:#04a089;
+   text-decoration: underline;
+}

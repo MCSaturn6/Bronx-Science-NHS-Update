@@ -103,6 +103,7 @@ export default function current() {
           <b>Unexcused Absence (per semester)</b>
           <br></br>
           <b>→</b> First absence: You will be placed on 2 levels of probation.
+          <br></br>
           <b>→</b> Second absence: You will be dismissed from NHS.
           <br></br>
           <br></br>
@@ -133,9 +134,6 @@ export default function current() {
           attendance records are accurate and up-to-date. You must be logged in
           to your Bronx Science email in order to view the master spreadsheet.
           <br></br><br></br>
-          If you have any questions about the attendance policy or your personal
-          attendance record, please contact the Vice President of Organization,
-          Ridwan Azam at azamr@bxscience.edu.
         </p>
 
         <h2 id="probations" class="body-text-heading-2">
