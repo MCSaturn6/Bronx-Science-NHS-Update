@@ -1,6 +1,10 @@
 import React, { Component } from "react";
+import { useEffect } from 'react'
 
 export default function FAQ() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
    <section class="page">
       <h1 class="heading">Frequently Asked Questions</h1>

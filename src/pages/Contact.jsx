@@ -1,6 +1,10 @@
 import React, { Component } from 'react';
+import { useEffect } from 'react'
 
-export default function contact() {
+export default function Contact() {
+   useEffect(() => {
+      window.scrollTo(0, 0)
+    }, [])
    return (
       <section class="page">
       <h1 class="heading">Contact Us</h1>

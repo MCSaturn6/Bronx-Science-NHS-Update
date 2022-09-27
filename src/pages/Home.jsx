@@ -1,8 +1,12 @@
 import React, { Component } from "react";
 import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faPeopleGroup, faHandsHoldingCircle, faPersonChalkboard, faFaceGrin, faFaceSaluting} from "@fortawesome/free-solid-svg-icons";
+import { useEffect } from 'react'
 
 export default function Home() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <>
       <section class="home-first-half">

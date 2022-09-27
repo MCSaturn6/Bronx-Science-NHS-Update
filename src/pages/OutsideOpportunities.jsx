@@ -1,7 +1,11 @@
 import { useState } from "react";
 import Outside from "../components/Outside.jsx";
+import { useEffect } from 'react'
 
 export default function OutsideOpportunities() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <section class="page">
       <h1 class="heading">Outside Opportunities</h1>

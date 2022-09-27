@@ -4,6 +4,7 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {faBars } from "@fortawesome/free-solid-svg-icons";
 
 export default function Navbar() {
+  
   return (
       <nav className="navbar sticky-top navbar-expand-lg">
         <div className="container-fluid">
@@ -30,7 +31,7 @@ export default function Navbar() {
               </li>
 
               <li className="nav-item">
-              <NavLink className="nav-link" to="/join">Join</NavLink>
+              <NavLink className="nav-link" to="/apply">Apply</NavLink>
               </li>
 
               <li className="nav-item">
@@ -54,6 +55,7 @@ export default function Navbar() {
               </li>
 
             </ul>
+            
           </div>
         </div>
       </nav>

@@ -1,6 +1,10 @@
 import React, { Component } from "react";
+import { useEffect } from "react";
 
-export default function current() {
+export default function Current() {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <section class="page">
       <h1 class="heading">Current Members</h1>
@@ -26,45 +30,61 @@ export default function current() {
       </div>
 
       <section class="body-text">
-        <h2 id="membership" class="body-text-heading-2">
-          Maintaining NHS Membership
-        </h2>
-
         <div class="page-body-text">
+          <br></br>
+          <h2
+            id="credit-table"
+            className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8"
+          >
+            Maintaining NHS Membership
+          </h2>
           <p>
             To maintain NHS membership you must fulfill the following
-            requirements every semester:
+            requirements every semester. Please consistently check the
+            spreadsheet linked below to see if you meet the requirements.
           </p>
           <br></br>
-          <ul>
-            <li>
-              <b>Scholarship:</b> You must maintain a 90 or above.
-            </li>
-            <li>
-              <b>Projects:</b> You must have a total of _ project credits per
-              semester.
-            </li>
-            <li>
-              <b>Service:</b> You must have a total of _ service credits per
-              semester.
-            </li>
-            <li>
-              <b>Tutoring:</b> You must have a total of _ tutoring credits per
-              semester.
-            </li>
-            <li>
-              <b>Character:</b> You must demonstrate strong character. An
-              approval email will be sent out to teachers.
-            </li>
-          </ul>
           <br></br>
-          <p>
-            Please consistently check the spreadsheet linked below to see if you
-            meet the requirements.
-          </p>
-        </div>
+          <br></br>
+          <br></br>
+          <br></br>
+          <br></br>
 
-        <div class="spreadsheet-image-button">
+          <table className="table table-bordered table-hover text-center">
+            <thead>
+              <tr>
+                <th
+                  className="bg-blue-500 text-3xl th-current-grade"
+                  colspan="6"
+                  scope="col"
+                >
+                  Credit Requirements / Semester
+                </th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr className="font-500">
+                <th>Scholarship</th>
+                <td>90 GPA</td>
+              </tr>
+
+              <tr className="font-500">
+                <th scope="row">Project Credits</th>
+                <td>__</td>
+              </tr>
+              <tr className="font-500">
+                <th scope="row">Service Credits</th>
+                <td>__</td>
+              </tr>
+              <tr className="font-500">
+                <th scope="row">Tutoring Credits</th>
+                <td>__</td>
+              </tr>
+            </tbody>
+          </table>
+        
+
+        <div className="spreadsheet-image-button -translate-y-10">
           <div class="spreadsheet-images-container">
             <img
               class="nhs-spread-image"
@@ -76,6 +96,7 @@ export default function current() {
             />
           </div>
 
+          <br></br>
           <div class="page-section-buttons">
             <a href="#">
               {" "}
@@ -86,10 +107,12 @@ export default function current() {
           </div>
         </div>
 
-        <h2 id="attendance" class="body-text-heading-2">
-          Attendance
-        </h2>
-        <p class="page-body-text">
+        <h2
+            id="attendance"
+            className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8"
+          >
+            Attendance
+          </h2>
           <b>Excused Absence (per semester)</b> <br></br>
           <b>→</b> First absence: You are allowed one excused absence per
           semester.
@@ -133,55 +156,66 @@ export default function current() {
           It is the responsibility of every NHS member to verify that his/her
           attendance records are accurate and up-to-date. You must be logged in
           to your Bronx Science email in order to view the master spreadsheet.
-          <br></br><br></br>
-        </p>
+          <br></br>
+          <br></br>
 
-        <h2 id="probations" class="body-text-heading-2">
-          Probation System
-        </h2>
-        <p class="page-body-text">
+
+        <h2
+            id="probations"
+            className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8"
+          >
+            Probation System
+          </h2>
           There are 3 levels of probations. Once you hit your third one, you'll
           be dismissed from NHS, following a dismissal email. However, you can
           always reapply the following year if you are a Junior.
-          <br></br><br></br>
-
+          <br></br>
+          <br></br>
           <b>One Probation</b>
-          <br></br> 
+          <br></br>
           <b>1. </b>Failure to sign up for a mandatory project before a
-          deadline. 
+          deadline.
           <br></br>
           <b>2. </b>Failure to attend a project for which you volunteered
-          without notifying an NHS Officer or Mr. DeSilva in advance. 
+          without notifying an NHS Officer or Mr. DeSilva in advance.
           <br></br>
-          <b>3. </b>Two excused absences from meetings (each additional absence beyond this equals one
-          level). 
+          <b>3. </b>Two excused absences from meetings (each additional absence
+          beyond this equals one level).
           <br></br>
-          <b>4. </b>Submitting a late absence note (please note that absence notes
-          received 24 hours after the meeting will not be considered).
-          
-          <br></br><br></br>
-          
+          <b>4. </b>Submitting a late absence note (please note that absence
+          notes received 24 hours after the meeting will not be considered).
+          <br></br>
+          <br></br>
           <b>Two Probations</b>
-          <br></br> 
-          <b>1. </b>Failure to attend a mandatory project (unless you have been cleared by the officers). 
           <br></br>
-          <b>2. </b>One unexcused absence. (If you receive two unexcused absences, you will be dismissed.)
+          <b>1. </b>Failure to attend a mandatory project (unless you have been
+          cleared by the officers).
+          <br></br>
+          <b>2. </b>One unexcused absence. (If you receive two unexcused
+          absences, you will be dismissed.)
+          <br></br>
+          <br></br>
+          <p className="text-red-700">
+            After 3 levels of probations, you will be dismissed from National
+            Honor Society, you will receive an email from the NHS Board stating
+            why you are being dismissed, and your guidance counselor will be
+            notified that you are no longer an NHS member.
+          </p>
 
-          <br></br><br></br>
 
-          <p className="text-red-700">After 3 levels of probations, you will be dismissed from National Honor Society, you will receive an email from the NHS Board stating why you are being dismissed, and your guidance counselor will be notified that you are no longer an NHS member.</p>
-        </p>
+        <h2
+            id="probations"
+            className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8"
+          >
+            Removing Probations
+          </h2>
 
-        <h2 id="forms" class="body-text-heading-2">
-          Removing Probations
-        </h2>
 
-        <p class="page-body-text">
           To be removed from one level of probation, you may complete an extra
           project after you have completed your other project requirements. If
           you go to every NHS meeting and attend your assigned NHS activities,
           you won't ever need this!
-        </p>
+          </div>
       </section>
       <br></br>
       <br></br>

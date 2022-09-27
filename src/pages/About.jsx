@@ -1,6 +1,10 @@
 import React, { Component } from "react";
+import { useEffect } from 'react'
 
 export default function About() {
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
   return (
     <section className="page">
       <h1 class="heading">About</h1>
@@ -21,11 +25,10 @@ export default function About() {
       </div>
 
       <section class="body-text">
+        <div class="page-body-text">
         <h2 id="what" class="body-text-heading-2">
           What is NHS?
         </h2>
-        <div class="page-body-text">
-
           <p>
             With over 300 members, Bronx Science National Honor Society (NHS)
             elevates the school's commitment to the values of scholarship,
@@ -33,8 +36,8 @@ export default function About() {
             opportunities around the school, such as being a tutor and being a
             tour guide, members get first-hand experience building these four
             skills. To become a member, navigate to the{" "}
-            <a class="link" href="join.html">
-              Join Us
+            <a class="link" href="/join">
+              Join
             </a>{" "}
             page.
             <br></br>
@@ -50,6 +53,10 @@ export default function About() {
               nhs.us.
             </a></u>
           </p>
+          <img
+              className="translate-x-1/2 w-3/6"
+              src={require("../images/community-no-bg-2.png")}
+            />
         </div>
 
         <h2 id="board" class="body-text-heading-2">
