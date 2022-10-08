@@ -13,9 +13,8 @@ export default function Footer(){
 
           <div class="footer-heading footer-2">
             <h2>Applying</h2>
-            <a href="/join#junior-req">Junior</a>
-            <a href="/join#senior-req">Senior</a>
-            <a href="/join#credit-table">Credit Table</a>
+            <a href="/apply#credit-req">Credit Requirements</a>
+            <a href="/apply#credit-table">Credit Table</a>
           </div>
 
           <div class="footer-heading footer-3">

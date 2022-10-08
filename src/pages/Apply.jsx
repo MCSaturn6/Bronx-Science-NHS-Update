@@ -89,7 +89,7 @@ export default function Apply() {
             </a>
           </div>
           <h2
-            id="req"
+            id="credit-req"
             className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8"
           >
             Credit Requirements
@@ -200,6 +200,21 @@ export default function Apply() {
             1 semester = 3 marking periods
             <br></br>2 semesters = 1 year
           </p>
+          <br></br>
+          <p>For each activity name, please specify. For example, if you are are the president of Key Club, you would not write "Officer" but rather "President of Key Club" and so on for each activity name.</p>
+
+          <h2
+            id="credit-table"
+            className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8"
+          >
+            Credit Conversions
+          </h2>
+          <p>We will automatically convert excess credits in either category automatically, so please ENTER EVERYTHING YOU'VE DONE. Don't just add enough activities to fulfill a category's requirement because we won't be able to convert those excess credits for you if we don't know about them.</p>
+          <br></br><br></br>
+          <p>5 EXCESS service credit = 1 L/C credit</p>
+          <p>5 EXCESS L/C credit = 1 service credit</p>
+          <br></br><br></br>
+          <p>If you are off by a few credits, we will still most likely let you in, so please apply :). </p>
         </div>
       </section>
       <br></br>
