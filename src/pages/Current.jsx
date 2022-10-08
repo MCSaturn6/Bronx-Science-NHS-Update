@@ -38,7 +38,7 @@ export default function Current() {
         <div class="page-body-text">
           <br></br>
           <h2
-            id="credit-table"
+            id="membership"
             className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8"
           >
             Maintaining NHS Membership

@@ -93,7 +93,7 @@ export default function Apply() {
             </a>
           </div>
           <h2
-            id="credit-req"
+            id="req"
             className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8"
           >
             Credit Requirements
