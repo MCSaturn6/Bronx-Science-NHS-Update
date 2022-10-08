@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { useEffect } from 'react'
+import Hero from "../components/Hero.jsx";
 
 export default function Tutoring() {
   useEffect(() => {
@@ -7,7 +8,10 @@ export default function Tutoring() {
   }, [])
   return (
     <section class="page">
-      <h1 class="heading">Tutoring</h1>
+      <Hero
+      title="Tutoring"
+      image="https://www.bxscience.edu/pics/mainLibraryeading19.jpg"
+      />
       <section class="body-text">
         <br></br>
         <div class="page-body-text">

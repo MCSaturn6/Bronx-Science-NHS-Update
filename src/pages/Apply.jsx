@@ -1,10 +1,11 @@
 import React, { Component } from "react";
 import { useEffect } from "react";
 
-import Timer from "../components/Timer.jsx";
 import "../styles/timer.css";
 import "../styles/styles.css";
 import "../scripts/timer.js";
+
+import Hero from "../components/Hero.jsx";
 
 export default function Apply() {
   useEffect(() => {
@@ -12,7 +13,10 @@ export default function Apply() {
   }, []);
   return (
     <section class="page">
-      <h1 class="heading">Applying to NHS</h1>
+      <Hero
+      title="Applying to NHS"
+      image="https://www.bxscience.edu/pics/landing/About-Admissions-MainLanding19.jpg"
+      />
       <div class="page-section-buttons">
         <a className="no-underline" href="#req">
           {" "}

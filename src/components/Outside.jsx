@@ -1,6 +1,4 @@
-import { useState } from "react";
 const Outside = props => {
-  const opps = props.opps;
   const name = props.name;
   const description = props.description;
   const link = props.link;

@@ -1,6 +1,6 @@
-import { useState } from "react";
 import Outside from "../components/Outside.jsx";
 import { useEffect } from 'react'
+import Hero from "../components/Hero.jsx";
 
 export default function OutsideOpportunities() {
   useEffect(() => {
@@ -8,7 +8,10 @@ export default function OutsideOpportunities() {
   }, [])
   return (
     <section class="page">
-      <h1 class="heading">Outside Opportunities</h1>
+      <Hero
+      title="Outside Opportunities"
+      image="https://upload.wikimedia.org/wikipedia/commons/2/24/Yankee_Stadium_001.JPG"
+      />
       <section class="body-text">
         <br></br>
         <div class="page-body-text">

@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { useEffect } from 'react'
+import Hero from "../components/Hero.jsx";
 
 export default function FAQ() {
   useEffect(() => {
@@ -7,7 +8,10 @@ export default function FAQ() {
   }, [])
   return (
    <section class="page">
-      <h1 class="heading">Frequently Asked Questions</h1>
+    <Hero
+    title="Frequently Asked Questions"
+    image="https://www.bxscience.edu/pics/landing/ParentsQuestions-TOP-PhotoLanding19.jpg"
+    />
       <div class="page-section-buttons">
         <a className="no-underline" href="#applicant">
           {" "}

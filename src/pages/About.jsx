@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { useEffect } from 'react'
+import Hero from "../components/Hero.jsx";
 
 export default function About() {
   useEffect(() => {
@@ -7,7 +8,10 @@ export default function About() {
   }, [])
   return (
     <section className="page">
-      <h1 class="heading">About</h1>
+      <Hero
+      title="About Us"
+      image="http://static1.squarespace.com/static/5bfc3ff0a2772c55740f3539/5cd43e2515fcc078dcb9b019/5ec563178c4ae53c938cf74c/1591573794835/Bronx+Science+Mural+-+Eventbrite+banner.jpg?format=1500w"
+      />
 
       <div class="page-section-buttons">
         <a className="no-underline" href="#what">

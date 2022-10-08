@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { useEffect } from "react";
+import Hero from "../components/Hero.jsx";
 
 export default function Current() {
   useEffect(() => {
@@ -7,7 +8,11 @@ export default function Current() {
   }, []);
   return (
     <section class="page">
-      <h1 class="heading">Current Members</h1>
+      <Hero
+        title="Current Members"
+        image="https://www.bxscience.edu/pics/landing/Students-SchedulesLanding19.jpg"
+      />
+
       <div class="page-section-buttons">
         <a className="no-underline" href="#membership">
           {" "}
