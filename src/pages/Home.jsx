@@ -18,7 +18,7 @@ export default function Home() {
           <div className="stats-item stats-item-3">
             <img
               className="home-images"
-              src={require("../images/johann-sitting-open-house.png")}
+              src={require("../images/Bronx Science College Supplement Help 2.jpg")}
             />
           </div>
           <div class="stats-item stats-item-2">Scholarship.</div>
@@ -29,7 +29,7 @@ export default function Home() {
           <div class="stats-item stats-item-1">
             <img
               class="home-images"
-              src={require("../images/johann-sitting-open-house.png")}
+              src={require("../images/AtomHacks 2.jpg")}
             />
           </div>
         </div>
@@ -38,7 +38,7 @@ export default function Home() {
           <div class="stats-item stats-item-3">
             <img
               class="home-images"
-              src={require("../images/johann-sitting-open-house.png")}
+              src={require("../images/Holocaust Speaker Event 2.jpg")}
             />
           </div>
           <div class="stats-item stats-item-2">Leadership.</div>
@@ -49,28 +49,28 @@ export default function Home() {
           <div class="stats-item stats-item-1">
             <img
               class="home-images"
-              src={require("../images/johann-sitting-open-house.png")}
+              src={require("../images/Spring Carnival.png")}
             />
           </div>
         </div>
 
-        <h2 className="numbers-heading">Bronx Science NHS 2021-2022</h2>
-        <div class="numbers">
+
+        <div className="numbers mt-5">
           <div class="numbers-item numbers-item-1">
             <FontAwesomeIcon className="numbers-item numbers-icon" icon={faPeopleGroup}></FontAwesomeIcon>
-            <h4>400+ Members</h4>
+            <h4 className="text-3xl">400+ Members</h4>
           </div>
           <div class="numbers-item numbers-item-1">
           <FontAwesomeIcon className="numbers-item numbers-icon" icon={faHandsHoldingCircle}></FontAwesomeIcon>
-            <h4>700+ Projects</h4>
+            <h4 className="text-3xl" >Projects</h4>
           </div>
           <div class="numbers-item numbers-item-1">
           <FontAwesomeIcon className="numbers-item numbers-icon" icon={faFaceGrin}></FontAwesomeIcon>
-            <h4>1000+ Service</h4>
+            <h4 className="text-3xl" >Service</h4>
           </div>
           <div class="numbers-item numbers-item-1">
           <FontAwesomeIcon className="numbers-item numbers-icon" icon={faPersonChalkboard}></FontAwesomeIcon>
-            <h4>400+ Tutoring</h4>
+            <h4 className="text-3xl" >Tutoring</h4>
           </div>
         </div>
       </section>

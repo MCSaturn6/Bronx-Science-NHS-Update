@@ -9,13 +9,13 @@ export default function FAQ() {
    <section class="page">
       <h1 class="heading">Frequently Asked Questions</h1>
       <div class="page-section-buttons">
-        <a href="#applicant">
+        <a className="no-underline" href="#applicant">
           {" "}
           <button class="button-27" role="button">
             Applying
           </button>
         </a>
-        <a href="#tutoring">
+        <a className="no-underline" href="#tutoring">
           {" "}
           <button class="button-27" role="button">
             Tutoring

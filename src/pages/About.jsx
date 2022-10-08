@@ -10,15 +10,15 @@ export default function About() {
       <h1 class="heading">About</h1>
 
       <div class="page-section-buttons">
-        <a href="#what">
+        <a className="no-underline" href="#what">
           {" "}
-          <button class="button-27" role="button">
+          <button className="button-27">
             What
           </button>
         </a>
-        <a href="#board">
+        <a className="no-underline" href="#board">
           {" "}
-          <button class="button-27" role="button">
+          <button class="button-27">
             Who
           </button>
         </a>
@@ -53,10 +53,6 @@ export default function About() {
               nhs.us.
             </a></u>
           </p>
-          <img
-              className="translate-x-1/2 w-3/6"
-              src={require("../images/community-no-bg-2.png")}
-            />
         </div>
 
         <h2 id="board" class="body-text-heading-2">

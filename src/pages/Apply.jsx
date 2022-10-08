@@ -14,13 +14,13 @@ export default function Apply() {
     <section class="page">
       <h1 class="heading">Applying to NHS</h1>
       <div class="page-section-buttons">
-        <a href="#req">
+        <a className="no-underline" href="#req">
           {" "}
           <button class="button-27" role="button">
             Requirements
           </button>
         </a>
-        <a href="#credit-table">
+        <a className="no-underline" href="#credit-table">
           {" "}
           <button class="button-27" role="button">
             Credit Table
@@ -47,49 +47,51 @@ export default function Apply() {
             How to Apply
           </h2>
           <p>
-          <p>
-            <b>1. </b>Read the application instructions, requirements, and
-            credit table.
-          </p>
-          <p>
-            <b>2. </b>Submit an electronic application.
-          </p>
-          <p>
-            <b>3. </b>Upload supporting documents for out-of-school activities.
-          </p>
-          <p>
-            <b>4. </b>Wait for an email reply from the NHS Officers (1-2 weeks)
-            after the deadline.
-          </p>
-          <br></br>
-          <div className="text-red-700">
-            {" "}
-            Any applicant that is caught forging a teacher's or organization's
-            signature will be rejected from NHS and subject to disciplinary
-            action.
-          </div>
-          <br></br>
-          <b>Senior Deadline: Friday, 09/30/22 @ 3:00 PM.</b>
-          <br></br>
-          <br></br>
-          <b>Junior Deadline: __/__/22 @ 11:59 PM.</b>
-          <br></br><br></br>
+            <ol>
+              <li>
+                Read the application instructions, requirements, and credit
+                table.
+              </li>
+              <li>Submit an electronic application.</li>
+              <li>Upload supporting documents for out-of-school activities.</li>
+              <li>
+                Wait for an email reply from the NHS Officers (1-2 weeks) after
+                the deadline.
+              </li>
+            </ol>
+
+            <div className="text-red-700">
+              {" "}
+              Any applicant that is caught forging a teacher's or organization's
+              signature will be rejected from NHS and subject to disciplinary
+              action.
+            </div>
+            <br></br>
+            <b>Senior Deadline: Friday, 09/30/22 @ 3:00 PM.</b>
+            <br></br>
+            <br></br>
+            <b>Junior Deadline: __/__/22 @ 11:59 PM.</b>
+            <br></br>
+            <br></br>
           </p>
           <div class="page-section-buttons">
-            <a href="https://forms.gle/g81LQZdKR8gRLG7KA">
+            <a className="no-underline" href="https://forms.gle/g81LQZdKR8gRLG7KA">
               {" "}
               <button class="button-27 application-button" role="button">
                 NHS 22-23 Senior Application Form
               </button>
             </a>
-            <a href="https://docs.google.com/forms/d/e/1FAIpQLSffHPOYuxFRx8cwwmR9jj0q3fgZCX9dR1c-KH2D5WOyMZaNaw/viewform">
+            <a className="no-underline" href="https://docs.google.com/forms/d/e/1FAIpQLSffHPOYuxFRx8cwwmR9jj0q3fgZCX9dR1c-KH2D5WOyMZaNaw/viewform">
               {" "}
               <button class="button-27 application-button" role="button">
                 NHS 22-23 Senior Verification Form
               </button>
             </a>
           </div>
-          <h2 id="req" className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8">
+          <h2
+            id="req"
+            className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8"
+          >
             Credit Requirements
           </h2>
           <br></br>
@@ -172,9 +174,11 @@ export default function Apply() {
               </tr>
             </tbody>
           </table>
-        
 
-          <h2 id="credit-table" className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8">
+          <h2
+            id="credit-table"
+            className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8"
+          >
             Credit Table
           </h2>
           <div className="credit-table-container">
