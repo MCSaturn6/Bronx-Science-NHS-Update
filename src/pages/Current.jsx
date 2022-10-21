@@ -74,15 +74,15 @@ export default function Current() {
 
               <tr className="font-500">
                 <th scope="row">Project Credits</th>
-                <td>__</td>
+                <td>2</td>
               </tr>
               <tr className="font-500">
                 <th scope="row">Service Credits</th>
-                <td>__</td>
+                <td>5</td>
               </tr>
               <tr className="font-500">
                 <th scope="row">Tutoring Credits</th>
-                <td>__</td>
+                <td>10</td>
               </tr>
             </tbody>
           </table>
