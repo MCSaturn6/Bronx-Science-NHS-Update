@@ -6,4 +6,4 @@ Once accepted into NHS, members attend monthly meetings, typically held in the s
 
 To learn more about NHS, visit nhs.us.
 
-## Built using React.js, CSS, tailwind CSS
+Built using React.js, CSS, tailwind CSS
