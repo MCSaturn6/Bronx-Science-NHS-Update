@@ -1,4 +1,4 @@
-import React, { Component } from "react";
+import React from "react";
 
 export default function Footer(){
     return (
@@ -31,7 +31,7 @@ export default function Footer(){
             <a href="/faq">FAQ</a>
           </div>
         </div>
-        <p>Bronx Science National Honor Society | Website by Jeffrey Li ’23</p>
+        <p>Bronx Science National Honor Society | Maintained by VP of Tech</p>
       </div>
       </React.Fragment>
 

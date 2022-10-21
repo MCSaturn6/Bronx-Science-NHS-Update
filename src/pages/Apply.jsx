@@ -12,7 +12,7 @@ export default function Apply() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <section class="page">
+    <section className="page">
       <Hero
       title="Applying to NHS"
       image="https://www.bxscience.edu/pics/landing/About-Admissions-MainLanding19.jpg"
@@ -33,7 +33,7 @@ export default function Apply() {
       </div>
       <section class="body-text">
         <br></br>
-        <div class="page-body-text">
+        <div class="page-body-text pb-40">
           <h2 className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8">
             Who Should Apply
           </h2>
@@ -218,7 +218,6 @@ export default function Apply() {
           <p>5 EXCESS service credit = 1 L/C credit</p>
           <p>5 EXCESS L/C credit = 1 service credit</p>
           <br></br><br></br>
-          <p>If you are off by a few credits, we will still most likely let you in, so please apply :). </p>
         </div>
       </section>
       <br></br>

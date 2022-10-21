@@ -1,6 +1,4 @@
 import React, { Component } from "react";
-import { FontAwesomeIcon} from "@fortawesome/react-fontawesome";
-import {faPeopleGroup, faHandsHoldingCircle, faPersonChalkboard, faFaceGrin, faFaceSaluting} from "@fortawesome/free-solid-svg-icons";
 import { useEffect } from 'react'
 
 export default function Home() {
@@ -54,25 +52,6 @@ export default function Home() {
           </div>
         </div>
 
-
-        <div className="numbers mt-5">
-          <div class="numbers-item numbers-item-1">
-            <FontAwesomeIcon className="numbers-item numbers-icon" icon={faPeopleGroup}></FontAwesomeIcon>
-            <h4 className="text-3xl">400+ Members</h4>
-          </div>
-          <div class="numbers-item numbers-item-1">
-          <FontAwesomeIcon className="numbers-item numbers-icon" icon={faHandsHoldingCircle}></FontAwesomeIcon>
-            <h4 className="text-3xl" >Projects</h4>
-          </div>
-          <div class="numbers-item numbers-item-1">
-          <FontAwesomeIcon className="numbers-item numbers-icon" icon={faFaceGrin}></FontAwesomeIcon>
-            <h4 className="text-3xl" >Service</h4>
-          </div>
-          <div class="numbers-item numbers-item-1">
-          <FontAwesomeIcon className="numbers-item numbers-icon" icon={faPersonChalkboard}></FontAwesomeIcon>
-            <h4 className="text-3xl" >Tutoring</h4>
-          </div>
-        </div>
       </section>
     </>
   );

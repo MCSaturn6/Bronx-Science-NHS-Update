@@ -100,8 +100,8 @@ export default function Current() {
 
             <br></br>
             <div class="page-section-buttons">
-              <a className="no-underline" href="#">
-                {" "}
+              <a className="no-underline" href="https://docs.google.com/spreadsheets/d/1w-EwIWl_e7sxb1013aGzGe_imuipHN2qhkLhBu3QDsM/edit?usp=sharing" target="_blank">
+                {""}
                 <button class="button-27 application-button" role="button">
                   NHS 22-23 Master Spreadsheet
                 </button>

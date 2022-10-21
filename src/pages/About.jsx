@@ -34,16 +34,11 @@ export default function About() {
           What is NHS?
         </h2>
           <p>
-            With over 300 members, Bronx Science National Honor Society (NHS)
+            Bronx Science National Honor Society (NHS)
             elevates the school's commitment to the values of scholarship,
             service, leadership, and character. By providing volunteering
-            opportunities around the school, such as being a tutor and being a
-            tour guide, members get first-hand experience building these four
-            skills. To become a member, navigate to the{" "}
-            <a class="link" href="/join">
-              Join
-            </a>{" "}
-            page.
+            opportunities around the school, such as being a tutor and tour guide, members get first-hand experience building these four
+            skills.
             <br></br>
             <br></br>
             Once accepted into NHS, members attend monthly meetings, typically
@@ -76,15 +71,15 @@ export default function About() {
 
             <div class="flexbox-container">
               <div class="flexbox-item flexbox-item-1">
-                <div class="name">Mr. DeSilva</div>
-                <div class="position">Advisor</div>
-                <div class="email"><u>desilva@bxscience.edu</u></div>
-              </div>
-
-              <div class="flexbox-item flexbox-item-2">
                 <div class="name">Kaitlyn Youn</div>
                 <div class="position">President</div>
                 <div class="email"><u>younk@bxscience.edu</u></div>
+              </div>
+                
+              <div class="flexbox-item flexbox-item-2">
+              <div class="name">Ridwan Azam</div>
+                <div class="position">VP of Organization</div>
+                <div class="email"><u>azamr@bxscience.edu</u></div>
               </div>
             </div>
 
@@ -110,15 +105,15 @@ export default function About() {
               </div>
 
               <div class="flexbox-item flexbox-item-2">
-                <div class="name">Ridwan Azam</div>
-                <div class="position">VP of Organization</div>
-                <div class="email"><u>azamr@bxscience.edu</u></div>
-              </div>
-
-              <div class="flexbox-item flexbox-item-2">
                 <div class="name">Jeffrey Li</div>
                 <div class="position">VP of Technology</div>
                 <div class="email"><u>lij12@bxscience.edu</u></div>
+              </div>
+
+              <div class="flexbox-item flexbox-item-2">
+                <div class="name">Mr. DeSilva</div>
+                <div class="position">Advisor</div>
+                <div class="email"><u>desilva@bxscience.edu</u></div>
               </div>
             </div>
           </div>
