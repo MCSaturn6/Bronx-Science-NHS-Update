@@ -24,6 +24,7 @@
    margin-top:-10px;
    background-image: url(../images/nhs-landing-10.png);
    background-repeat: no-repeat;
+   background-repeat: cover;
    height: 100vh;
 }
 
