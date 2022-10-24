@@ -89,6 +89,7 @@ export default function About() {
               </div>
             </div>
           </div>
+          <p className = "flex justify-center mt-10 font-bold text-2xl underline" >Contact nhs@bxscience.edu for any inquiries. </p>
         </div>
       </section>
       <br></br>
