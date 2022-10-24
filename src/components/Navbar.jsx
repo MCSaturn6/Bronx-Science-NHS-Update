@@ -50,10 +50,6 @@ export default function Navbar() {
               <NavLink className="nav-link" to="/faq">FAQ</NavLink>
               </li>
 
-              <li className="nav-item">
-              <NavLink className="nav-link" to="/contact">Contact</NavLink>
-              </li>
-
             </ul>
             
           </div>

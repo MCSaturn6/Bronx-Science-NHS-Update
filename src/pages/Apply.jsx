@@ -44,7 +44,7 @@ export default function Apply() {
             ultimately depends on your activities as a Freshmen and Sophomore
             (and Junior if you apply as a Senior in the fall). This includes
             joining clubs, partaking in school volunteering opportunities,
-            out-of-school community service, and leadership opportunities. So
+            out-of-school community service, and leadership opportunities, so
             start early!
           </p>
           <h2 className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8">
@@ -74,7 +74,7 @@ export default function Apply() {
             <b>Senior Deadline: Friday, 09/30/22 @ 3:00 PM.</b>
             <br></br>
             <br></br>
-            <b>Junior Deadline: __/__/22 @ 11:59 PM.</b>
+            <b>Junior Deadline: __/__/23 @ 11:59 PM.</b>
             <br></br>
             <br></br>
           </p>
@@ -107,17 +107,23 @@ export default function Apply() {
             <thead>
               <tr>
                 <th
-                  className="bg-blue-500 text-3xl th-current-grade"
+                  className="bg-blue-500 text-4xl th-current-grade"
                   colspan="6"
                   scope="col"
                 >
                   Applying as a Junior
                 </th>
+                
               </tr>
             </thead>
             <tbody>
+            <tr className="text-2xl font-bold">
+                <th></th>
+                <th colspan="6">Grade Entered Bronx Science</th>
+              </tr>
+
               <tr className="text-xl font-bold">
-                <th>Credit Type</th>
+              <th>Credit Category</th>
                 <th>Freshman</th>
                 <th>Sophomore</th>
               </tr>
@@ -133,7 +139,7 @@ export default function Apply() {
                 <td>8</td>
               </tr>
               <tr className="font-500">
-                <th scope="row">Leadership & Citizenship Credits</th>
+                <th scope="row">Leadership + Citizenship Credits</th>
                 <td>50</td>
                 <td>30</td>
               </tr>
@@ -146,7 +152,7 @@ export default function Apply() {
             <thead>
               <tr>
                 <th
-                  className="bg-blue-500 text-3xl th-current-grade"
+                  className="bg-blue-500 text-4xl th-current-grade"
                   colspan="6"
                   scope="col"
                 >
@@ -155,8 +161,13 @@ export default function Apply() {
               </tr>
             </thead>
             <tbody>
+            <tr className="text-2xl font-bold">
+                <th></th>
+                <th colspan="6">Grade Entered Bronx Science</th>
+              </tr>
+
               <tr className="text-xl font-bold">
-                <th>Credit Type</th>
+                <th>Credit Category</th>
                 <th>Freshman</th>
                 <th>Sophomore</th>
               </tr>
@@ -172,7 +183,7 @@ export default function Apply() {
                 <td>10</td>
               </tr>
               <tr className="font-500">
-                <th scope="row">Leadership & Citizenship Credits</th>
+                <th scope="row">Leadership + Citizenship Credits</th>
                 <td>60</td>
                 <td>45</td>
               </tr>

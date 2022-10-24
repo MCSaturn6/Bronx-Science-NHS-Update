@@ -13,7 +13,6 @@ import Join from "../pages/Apply.jsx";
 import Current from "../pages/Current.jsx";
 import Tutoring from "../pages/Tutoring.jsx";
 import FAQ from "../pages/FAQ.jsx";
-import Contact from "../pages/Contact.jsx";
 import OutsideOpportunities from "../pages/OutsideOpportunities.jsx";
 
 export default function App() {
@@ -29,7 +28,6 @@ export default function App() {
       <Route path="/outsideopportunities" element={<OutsideOpportunities />} />
       <Route path="/tutoring" element={<Tutoring />} />
       <Route path="/faq" element={<FAQ />} />
-      <Route path="/contact" element={<Contact />} />
     </Routes>
 
     <Footer/>

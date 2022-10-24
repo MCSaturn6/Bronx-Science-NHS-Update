@@ -131,8 +131,9 @@ export default function Current() {
           <b>Absence Notes</b>
           <ul>
             <li>
-              Fill out this form at least 24 hours in advance if you will be
-              absent for the meeting.
+              <p>
+              Fill out <a href = "https://forms.gle/YccAyVeHP4jnYzCw7" target="_blank">this form</a> at least 24 hours in advance if you will be
+              absent for the meeting.</p>
             </li>
           </ul>
           <b>Unexcused Absence (per semester)</b>

@@ -13,21 +13,7 @@ export default function About() {
       image="http://static1.squarespace.com/static/5bfc3ff0a2772c55740f3539/5cd43e2515fcc078dcb9b019/5ec563178c4ae53c938cf74c/1591573794835/Bronx+Science+Mural+-+Eventbrite+banner.jpg?format=1500w"
       />
 
-      <div class="page-section-buttons">
-        <a className="no-underline" href="#what">
-          {" "}
-          <button className="button-27">
-            What
-          </button>
-        </a>
-        <a className="no-underline" href="#board">
-          {" "}
-          <button class="button-27">
-            Who
-          </button>
-        </a>
-      </div>
-
+    
       <section class="body-text">
         <div class="page-body-text">
         <h2 id="what" class="body-text-heading-2">
@@ -80,20 +66,6 @@ export default function About() {
               <div class="name">Ridwan Azam</div>
                 <div class="position">VP of Organization</div>
                 <div class="email"><u>azamr@bxscience.edu</u></div>
-              </div>
-            </div>
-
-            <div class="user-container">
-              <div class="user-item user-item-1">
-                <i class="fa-solid fa-circle-user"></i>
-              </div>
-
-              <div class="user-item user-item-2">
-                <i class="fa-solid fa-circle-user"></i>
-              </div>
-
-              <div class="user-item user-item-3">
-                <i class="fa-solid fa-circle-user"></i>
               </div>
             </div>
 
