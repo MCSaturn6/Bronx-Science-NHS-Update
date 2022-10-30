@@ -228,7 +228,7 @@ export default function Apply() {
           <br></br><br></br>
           <p>5 EXCESS service credit = 1 L/C credit</p>
           <p>5 EXCESS L/C credit = 1 service credit</p>
-          <br></br><br></br>
+          {/* <br></br><br></br> */}
         </div>
       </section>
       <br></br>
