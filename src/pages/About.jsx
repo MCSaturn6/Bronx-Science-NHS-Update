@@ -27,7 +27,7 @@ export default function About() {
             skills.
             <br></br>
             <br></br>
-            Once accepted into NHS, members attend monthly meetings, typically
+            Once accepted into NHS, members attend monthly meetings on Fridays, typically
             held in the school auditorium. Members will check their emails
             regularly on project, service, and tutoring opportunities,
             dedicating an average of 1-2 hours a week on NHS.
