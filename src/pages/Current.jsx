@@ -175,7 +175,7 @@ export default function Current() {
             Removing Probations
           </h2>
           To be removed from one level of probation, you may complete an extra
-          project after you have completed your other project requirements. If
+          project after you have completed your other project requirements. You may not clear probations once you hit 3. If
           you go to every NHS meeting and attend your assigned NHS activities,
           you won't ever need this!
         </div>
