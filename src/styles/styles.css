@@ -354,7 +354,7 @@ h1.heading {
    height: auto;
    background-color: var(--whiteish);
    margin: 30px;
-   margin-bottom:0px;
+   /* margin-bottom:0px; */
    color: var(--dark);
    border-radius: 10px;
    padding-bottom: 60px;

@@ -1,9 +1,6 @@
 import React, { Component } from "react";
 import { useEffect } from "react";
-
-import "../styles/timer.css";
 import "../styles/styles.css";
-import "../scripts/timer.js";
 
 import Hero from "../components/Hero.jsx";
 
@@ -12,7 +9,7 @@ export default function Apply() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <section className="page">
+    <section className="page pb-16">
       <Hero
       title="Applying to NHS"
       image="https://www.bxscience.edu/pics/landing/About-Admissions-MainLanding19.jpg"
@@ -32,9 +29,8 @@ export default function Apply() {
         </a>
       </div>
       <section class="body-text">
-        <br></br>
         <div class="page-body-text pb-40">
-          <h2 className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8">
+          <h2 className="text-3xl font-bold pt-12 mb-3 underline decoration-yellow-500 underline-offset-8">
             Who Should Apply
           </h2>
           <p>
@@ -65,7 +61,6 @@ export default function Apply() {
             </ol>
 
             <div className="text-red-700">
-              {" "}
               Any applicant that is caught forging a teacher's or organization's
               signature will be rejected from NHS and subject to disciplinary
               action.
@@ -94,16 +89,11 @@ export default function Apply() {
           </div>
           <h2
             id="req"
-            className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8"
+            className="text-3xl font-bold mt-6 mb-32 underline decoration-yellow-500 underline-offset-8"
           >
             Credit Requirements
           </h2>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <table className="table table-bordered table-hover text-center">
+          <table className="table table-bordered table-hover text-center mb-16">
             <thead>
               <tr>
                 <th
@@ -145,9 +135,7 @@ export default function Apply() {
               </tr>
             </tbody>
           </table>
-          <br></br>
-          <br></br>
-          <br></br>
+
           <table class="table table-bordered table-hover text-center">
             <thead>
               <tr>
@@ -220,20 +208,15 @@ export default function Apply() {
 
           <h2
             id="credit-table"
-            className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8"
+            className="text-3xl font-bold mt-12 mb-3 underline decoration-yellow-500 underline-offset-8"
           >
             Credit Conversions
           </h2>
           <p>We will automatically convert excess credits in either category automatically, so please ENTER EVERYTHING YOU'VE DONE. Don't just add enough activities to fulfill a category's requirement because we won't be able to convert those excess credits for you if we don't know about them.</p>
-          <br></br><br></br>
           <p>5 EXCESS service credit = 1 L/C credit</p>
           <p>5 EXCESS L/C credit = 1 service credit</p>
-          {/* <br></br><br></br> */}
         </div>
       </section>
-      <br></br>
-      <br></br>
-      <br></br>
     </section>
   );
 }

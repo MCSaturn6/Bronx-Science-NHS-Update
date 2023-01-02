@@ -7,7 +7,7 @@ export default function Current() {
     window.scrollTo(0, 0);
   }, []);
   return (
-    <section class="page">
+    <section className="page pb-16">
       <Hero
         title="Current Members"
         image="https://www.bxscience.edu/pics/landing/Students-SchedulesLanding19.jpg"
@@ -43,17 +43,11 @@ export default function Current() {
           >
             Maintaining NHS Membership
           </h2>
-          <p>
+          <p className="mb-32">
             To maintain NHS membership you must fulfill the following
             requirements every semester. Please consistently check the
             spreadsheet linked below to see if you meet the requirements.
           </p>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
-          <br></br>
           <table className="table table-bordered table-hover text-center">
             <thead>
               <tr>
@@ -98,7 +92,6 @@ export default function Current() {
               />
             </div>
 
-            <br></br>
             <div class="page-section-buttons">
               <a className="no-underline" href="https://docs.google.com/spreadsheets/d/1w-EwIWl_e7sxb1013aGzGe_imuipHN2qhkLhBu3QDsM/edit?usp=sharing" target="_blank">
                 {""}
@@ -180,9 +173,6 @@ export default function Current() {
           you won't ever need this!
         </div>
       </section>
-      <br></br>
-      <br></br>
-      <br></br>
     </section>
   );
 }

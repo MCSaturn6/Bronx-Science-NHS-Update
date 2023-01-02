@@ -4,7 +4,7 @@ const Outside = props => {
   const link = props.link;
 
   return (
-    <>
+    <div>
       <h2 className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8">
         {name}
       </h2>
@@ -16,7 +16,7 @@ const Outside = props => {
           here.
         </a>
       </p>
-    </>
+    </div>
   );
 };
 

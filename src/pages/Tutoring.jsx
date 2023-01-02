@@ -7,13 +7,12 @@ export default function Tutoring() {
     window.scrollTo(0, 0)
   }, [])
   return (
-    <section class="page">
+    <section className="page pb-16">
       <Hero
       title="Tutoring"
       image="https://www.bxscience.edu/pics/mainLibraryeading19.jpg"
       />
-      <section class="body-text">
-        <br></br>
+      <section className="body-text pt-6">
         <div class="page-body-text">
 
         <h2 className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8">
@@ -51,13 +50,8 @@ export default function Tutoring() {
           </p>
           <br></br>
           <br></br>
-
-
         </div>
       </section>
-      <br></br>
-      <br></br>
-      <br></br>
     </section>
   );
 }
