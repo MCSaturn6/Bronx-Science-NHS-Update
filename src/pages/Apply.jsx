@@ -69,7 +69,7 @@ export default function Apply() {
             <b>Senior Deadline: Friday, 09/30/22 @ 3:00 PM.</b>
             <br></br>
             <br></br>
-            <b>Junior Deadline: __/__/23 @ 11:59 PM.</b>
+            <b>Junior Deadline: 02/03/23 @ 11:59 PM.</b>
             <br></br>
             <br></br>
           </p>
