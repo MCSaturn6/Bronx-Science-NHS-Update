@@ -187,15 +187,15 @@ export default function Apply() {
           <div className="credit-table-container">
             <img
               className="credit-table-images"
-              src={require("../images/nhs-service-table.png")}
+              src={require("../images/service-table.png")}
             />
             <img
               className="credit-table-images"
-              src={require("../images/nhs-leadership-table.png")}
+              src={require("../images/leadership-table.png")}
             />
             <img
               className="credit-table-images"
-              src={require("../images/nhs-citizenship-table.png")}
+              src={require("../images/citizenship-table.png")}
             />
           </div>
           {/* footnotes */}
