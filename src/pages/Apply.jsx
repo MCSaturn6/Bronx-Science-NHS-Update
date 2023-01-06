@@ -37,8 +37,7 @@ export default function Apply() {
             Only Bronx Science{" "}
             <b>second semester Juniors and first semester Seniors</b> may apply
             to NHS. If you are an underclassman, however, your application
-            ultimately depends on your activities as a Freshmen and Sophomore
-            (and Junior if you apply as a Senior in the fall). This includes
+            ultimately depends on your activities as a Freshman, Sophomore, and Junior. This includes
             joining clubs, partaking in school volunteering opportunities,
             out-of-school community service, and leadership opportunities, so
             start early!
