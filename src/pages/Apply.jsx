@@ -52,7 +52,7 @@ export default function Apply() {
                 table.
               </li>
               <li>Submit an electronic application.</li>
-              <li>Upload supporting documents for out-of-school activities.</li>
+              <li>Upload supporting document(s) for out-of-school activities. The document(s) should include what the activity entails, number of hours acquired, and name and signature of an adult in charge.</li>
               <li>
                 Wait for an email reply from the NHS Officers (1-2 weeks) after
                 the deadline.
