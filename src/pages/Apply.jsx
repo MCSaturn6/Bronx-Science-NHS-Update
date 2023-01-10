@@ -129,7 +129,7 @@ export default function Apply() {
               </tr>
               <tr className="font-500">
                 <th scope="row">Leadership + Citizenship Credits</th>
-                <td>50</td>
+                <td>45</td>
                 <td>30</td>
               </tr>
             </tbody>
