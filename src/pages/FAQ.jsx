@@ -17,7 +17,7 @@ const nhsApplicants = [
   },
   {
     question: "Can I get credit for being part of yearbook or newspaper?",
-    answer: "Since the yearbook and newspaper are classes, you may not receive credit for being a member of either. You may, however, receive credit for an editor position."
+    answer: "Since the yearbook and newspaper are classes, you may not receive credit for being a member of either."
   },
   {
     question: "How can I complete my service requirements?",

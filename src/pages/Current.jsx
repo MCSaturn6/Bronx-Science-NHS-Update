@@ -76,7 +76,7 @@ export default function Current() {
               </tr>
               <tr className="font-500">
                 <th scope="row">Tutoring Credits</th>
-                <td>10</td>
+                <td>7</td>
               </tr>
             </tbody>
           </table>
@@ -93,7 +93,7 @@ export default function Current() {
             </div>
 
             <div class="page-section-buttons">
-              <a className="no-underline" href="https://docs.google.com/spreadsheets/d/1w-EwIWl_e7sxb1013aGzGe_imuipHN2qhkLhBu3QDsM/edit?usp=sharing" target="_blank">
+              <a className="no-underline" href="https://docs.google.com/spreadsheets/d/1ZEcphyWMjbuKbl0PPp8OtmzhxLf51CCsdWMCsAF8Mh8/edit#gid=257704221" target="_blank">
                 {""}
                 <button class="button-27 application-button" role="button">
                   NHS 22-23 Master Spreadsheet
