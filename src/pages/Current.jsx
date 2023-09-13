@@ -93,7 +93,11 @@ export default function Current() {
             </div>
 
             <div class="page-section-buttons">
-              <a className="no-underline" href="https://docs.google.com/spreadsheets/d/1ZEcphyWMjbuKbl0PPp8OtmzhxLf51CCsdWMCsAF8Mh8/edit#gid=257704221" target="_blank">
+              <a
+                className="no-underline"
+                href="https://docs.google.com/spreadsheets/d/1K38L6o8PH6u-HJBKw0NJc11_Oj-m8GJvJY1HI7frgB0/edit#gid=353657329"
+                target="_blank"
+              >
                 {""}
                 <button class="button-27 application-button" role="button">
                   NHS 22-23 Master Spreadsheet
@@ -125,8 +129,13 @@ export default function Current() {
           <ul>
             <li>
               <p>
-              Fill out <a href = "https://forms.gle/YccAyVeHP4jnYzCw7" target="_blank">this form</a> at least 24 hours in advance if you will be
-              absent for the meeting.</p>
+                Fill out{" "}
+                <a href="https://forms.gle/YccAyVeHP4jnYzCw7" target="_blank">
+                  this form
+                </a>{" "}
+                at least 24 hours in advance if you will be absent for the
+                meeting.
+              </p>
             </li>
           </ul>
           <b>Unexcused Absence (per semester)</b>
@@ -168,9 +177,10 @@ export default function Current() {
             Removing Probations
           </h2>
           To be removed from one level of probation, you may complete an extra
-          project after you have completed your other project requirements. You may not clear probations once you hit 3. If
-          you go to every NHS meeting and attend your assigned NHS activities,
-          you won't ever need this!
+          project after you have completed your other project requirements. You
+          may not clear probations once you hit 3. If you go to every NHS
+          meeting and attend your assigned NHS activities, you won't ever need
+          this!
         </div>
       </section>
     </section>
