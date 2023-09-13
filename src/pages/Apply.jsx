@@ -11,8 +11,8 @@ export default function Apply() {
   return (
     <section className="page pb-16">
       <Hero
-      title="Applying to NHS"
-      image="https://www.bxscience.edu/pics/landing/About-Admissions-MainLanding19.jpg"
+        title="Applying to NHS"
+        image="https://www.bxscience.edu/pics/landing/About-Admissions-MainLanding19.jpg"
       />
       <div class="page-section-buttons">
         <a className="no-underline" href="#req">
@@ -37,10 +37,10 @@ export default function Apply() {
             Only Bronx Science{" "}
             <b>second semester Juniors and first semester Seniors</b> may apply
             to NHS. If you are an underclassman, however, your application
-            ultimately depends on your activities as a Freshman, Sophomore, and Junior. This includes
-            joining clubs, partaking in school volunteering opportunities,
-            out-of-school community service, and leadership opportunities, so
-            start early!
+            ultimately depends on your activities as a Freshman, Sophomore, and
+            Junior. This includes joining clubs, partaking in school
+            volunteering opportunities, out-of-school community service, and
+            leadership opportunities, so start early!
           </p>
           <h2 className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8">
             How to Apply
@@ -52,7 +52,11 @@ export default function Apply() {
                 table.
               </li>
               <li>Submit an electronic application.</li>
-              <li>Upload supporting document(s) for out-of-school activities. The document(s) should include what the activity entails, number of hours acquired, and name and signature of an adult in charge.</li>
+              <li>
+                Upload supporting document(s) for out-of-school activities. The
+                document(s) should include what the activity entails, number of
+                hours acquired, and name and signature of an adult in charge.
+              </li>
               <li>
                 Wait for an email reply from the NHS Officers (1-2 weeks) after
                 the deadline.
@@ -65,24 +69,34 @@ export default function Apply() {
               action.
             </div>
             <br></br>
-            <b>Senior Deadline: Friday, 09/30/22 @ 3:00 PM.</b>
+            <b>Senior Deadline: Friday, 09/29/23 @ 11:59 PM.</b>
             <br></br>
             <br></br>
-            <b>Junior Deadline: 02/03/23 @ 11:59 PM.</b>
+            <b>Junior applications open in January</b>
             <br></br>
             <br></br>
           </p>
           <div class="page-section-buttons">
-            <a className="no-underline" href="https://forms.gle/sSTexMnQSMYmJZV59">
+            <a
+              className="no-underline"
+              href="https://forms.gle/6VDP8dE7k1sUeQmJA"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <button class="button-27 application-button" role="button">
-                NHS 22-23 Junior Application Form
+                NHS 23-24 Senior Application Form
               </button>
             </a>
-            <a className="no-underline" href="https://forms.gle/pRBDWSG4x6Vz5RPU7">
+            <a
+              className="no-underline"
+              href="https://forms.gle/bv4U5FYyheEyBZfy9"
+              target="_blank"
+              rel="noreferrer"
+            >
               {" "}
               <button class="button-27 application-button" role="button">
-                NHS 22-23 Junior Verification Form
+                NHS 23-24 Senior Verification Form
               </button>
             </a>
           </div>
@@ -102,17 +116,16 @@ export default function Apply() {
                 >
                   Applying as a Junior
                 </th>
-                
               </tr>
             </thead>
             <tbody>
-            <tr className="text-2xl font-bold">
+              <tr className="text-2xl font-bold">
                 <th></th>
                 <th colspan="6">Grade Entered Bronx Science</th>
               </tr>
 
               <tr className="text-xl font-bold">
-              <th>Credit Category</th>
+                <th>Credit Category</th>
                 <th>Freshman</th>
                 <th>Sophomore</th>
               </tr>
@@ -148,7 +161,7 @@ export default function Apply() {
               </tr>
             </thead>
             <tbody>
-            <tr className="text-2xl font-bold">
+              <tr className="text-2xl font-bold">
                 <th></th>
                 <th colspan="6">Grade Entered Bronx Science</th>
               </tr>
@@ -203,7 +216,11 @@ export default function Apply() {
             <br></br>2 semesters = 1 year
           </p>
           <br></br>
-          <p>For each activity name, please specify. For example, if you are are the president of Key Club, you would not write "Officer" but rather "President of Key Club" and so on for each activity name.</p>
+          <p>
+            For each activity name, please specify. For example, if you are are
+            the president of Key Club, you would not write "Officer" but rather
+            "President of Key Club" and so on for each activity name.
+          </p>
 
           <h2
             id="credit-table"
@@ -211,7 +228,13 @@ export default function Apply() {
           >
             Credit Conversions
           </h2>
-          <p>We will automatically convert excess credits in either category automatically, so please ENTER EVERYTHING YOU'VE DONE. Don't just add enough activities to fulfill a category's requirement because we won't be able to convert those excess credits for you if we don't know about them.</p>
+          <p>
+            We will automatically convert excess credits in either category
+            automatically, so please ENTER EVERYTHING YOU'VE DONE. Don't just
+            add enough activities to fulfill a category's requirement because we
+            won't be able to convert those excess credits for you if we don't
+            know about them.
+          </p>
           <p>5 EXCESS service credit = 1 L/C credit</p>
           <p>5 EXCESS L/C credit = 1 service credit</p>
         </div>
