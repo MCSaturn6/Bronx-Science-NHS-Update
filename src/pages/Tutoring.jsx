@@ -21,16 +21,13 @@ export default function Tutoring() {
             NHS members who are matched with a tutor must document their
             tutoring hours using{" "}
             <a
-              href="https://www.bxscience.edu/ourpages/auto/2014/4/24/65108071/NHS%20Tutoring%20Form.pdf"
+              href="https://docs.google.com/document/d/13rymvhpj5mqVk9mhyyL_SIg1nc6ucN6ZYK8CKDrOXeY/edit"
               target="_blank"
             >
               this
             </a>{" "}
             log. Uplaod the log at the end of each semester{" "}
-            <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSeTSMYDdIc9Eusj27kwEXhmZoZb9fosGQz0Jdtm23JfpTV3RA/viewform"
-              target="_blank"
-            >
+            <a href="https://forms.gle/Fg18yiJX87GdWzwe8" target="_blank">
               here
             </a>
             .
@@ -44,7 +41,7 @@ export default function Tutoring() {
           <p>
             If you would like assistance in any of your subjects, please use{" "}
             <a
-              href="https://docs.google.com/document/d/13rymvhpj5mqVk9mhyyL_SIg1nc6ucN6ZYK8CKDrOXeY/edit?usp=drive_link"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfvi6WwtPg67LyQNDJ1Gikk6dggVUF_oibhug6B3xbMuO7nCg/viewform"
               target="_blank"
             >
               this
@@ -61,7 +58,7 @@ export default function Tutoring() {
             Teachers may request an NHS tutor to assist them during SGI by
             submitting{" "}
             <a
-              href="https://docs.google.com/document/d/1-uCUkzfpnp7kv0LXBwj6mqAvKTW8Nmc2tcKPKpbJEiY/edit"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScwbBzHgWnDTu6L9YpjqVxYo4UCBo5SdGpQzwWdJgN8gf8JYA/viewform"
               target="_blank"
             >
               this
