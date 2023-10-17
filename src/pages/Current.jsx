@@ -72,11 +72,11 @@ export default function Current() {
               </tr>
               <tr className="font-500">
                 <th scope="row">Service Credits</th>
-                <td>5</td>
+                <td>10</td>
               </tr>
               <tr className="font-500">
                 <th scope="row">Tutoring Credits</th>
-                <td>7</td>
+                <td>10</td>
               </tr>
             </tbody>
           </table>
@@ -100,7 +100,7 @@ export default function Current() {
               >
                 {""}
                 <button class="button-27 application-button" role="button">
-                  NHS 22-23 Master Spreadsheet
+                  NHS 23-24 Master Spreadsheet
                 </button>
               </a>
             </div>
