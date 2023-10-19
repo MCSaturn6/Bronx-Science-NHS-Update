@@ -149,19 +149,23 @@ export default function Current() {
           >
             Probation System
           </h2>
-          You are allowed a maximum of two probations per semester.
-          <br></br>
-          <br></br>
+          <p>You are allowed a maximum of two probations per semester.</p>
+          <p>
+            You will not be allowed to appeal probations unless it is an error
+            on our part.{" "}
+          </p>
           <b>Examples of probations but not limited to...</b>
           <ul>
+            <li>Unexcused meetings (2 probations)</li>
             <li>
-              Failure to sign up for a mandatory project before a deadline.
+              Submitting an assignment posted on Google Classroom late (1
+              probation)
             </li>
             <li>
-              Failure to attend a project for which you volunteered without
-              notifying an NHS Officer or Mr. DeSilva in advance.
+              Unexcused absence for an event you signed up for (1 probation).
+              This includes canceling a sign up less than 24 hours before the
+              event
             </li>
-            <li>Anything mentioned previously above.</li>
           </ul>
           <p className="text-red-700">
             On your third probation, you will be dismissed from National Honor
@@ -174,13 +178,21 @@ export default function Current() {
             id="probations"
             className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8"
           >
-            Removing Probations
+            Clearing Probations
           </h2>
-          To be removed from one level of probation, you may complete an extra
-          project after you have completed your other project requirements. You
-          may not clear probations once you hit 3. If you go to every NHS
-          meeting and attend your assigned NHS activities, you won't ever need
-          this!
+          <p>
+            Once you receive your third probation, you will be dismissed from
+            NHS. You will not have any opportunity to reapply and will not be
+            eligible to clear any of your probations.
+          </p>
+          <p>
+            2 service credits will clear one probation 1 project credit will
+            clear one probation These credits will not be counted towards either
+            of the two categories, but rather it will only clear the probation
+            You may not clear a probation with past earned service and project
+            credits. Only credits awarded AFTER a probation has been received
+            will be acceptable for clearance.
+          </p>
         </div>
       </section>
     </section>
