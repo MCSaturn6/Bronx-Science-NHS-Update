@@ -95,7 +95,7 @@ export default function Current() {
             <div class="page-section-buttons">
               <a
                 className="no-underline"
-                href="https://docs.google.com/spreadsheets/d/1K38L6o8PH6u-HJBKw0NJc11_Oj-m8GJvJY1HI7frgB0/edit#gid=353657329"
+                href="https://docs.google.com/spreadsheets/d/1uNOCmTFOgucpe1mhAYu1hAZqBHnHEAyuSiqSrghKFXc/edit#gid=1436749846"
                 target="_blank"
               >
                 {""}
@@ -106,43 +106,73 @@ export default function Current() {
             </div>
           </div>
           <h2
+            id="credit-info"
+            className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8"
+          >
+            Credit Information
+          </h2>
+          <p>Credits will not be transferred between the three requirements.</p>
+          <p>
+            Tutoring non-Bronx Science students will not count towards your
+            credit requirement. You must either tutor during school, during SGI,
+            or tutor your matched Bronx Science student outside of school. You
+            may only tutor a tutee once being matched through NHS by receiving
+            the “Tutoring Pairing Email”.
+          </p>
+          <p>
+            Students can tutor in SGI for credit without being matched. You must
+            have a teacher's signature on the tutoring log.
+          </p>
+          <h2
+            id="24-hr-policy"
+            className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8"
+          >
+            24 Hour Policy
+          </h2>
+          <p>
+            If you have an excused reason for being unable to attend a volunteer
+            event you have signed up for, you must cancel within 24 hours{" "}
+            <b>of the day</b> of the event. For example, if the event is at{" "}
+            <b>ANY TIME</b> on a Wednesday, you must email us by <b>Monday</b>{" "}
+            at 11:59pm. Please provide an excused absence note (OB pass, teacher
+            note, screenshot of attendance form submitted to the attendance
+            office)
+          </p>
+          <p>
+            Please reply to all emails requesting a reply within 24 hours (this
+            includes confirming tutor match emails).
+          </p>
+          <p>
+            If an event is canceled within 24 hours of the day of the event, we
+            will automatically reward you with your credits.
+          </p>
+          <h2
             id="attendance"
             className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8"
           >
             Attendance
           </h2>
-          <b>Excused Absence (per semester)</b> <br></br>
-          <ul>
-            <li>
-              First absence: You are allowed one excused absence per semester.
-            </li>
-            <li>Second absence: 1 probation.</li>
-            <li>
-              Any excused absences after the second one is another probation.
-            </li>
-            <li>
-              If you submit an absence note late (after the meeting begins), you
-              will receive 1 level of probation.
-            </li>
-          </ul>
-          <b>Absence Notes</b>
-          <ul>
-            <li>
-              <p>
-                Fill out{" "}
-                <a href="https://forms.gle/YccAyVeHP4jnYzCw7" target="_blank">
-                  this form
-                </a>{" "}
-                at least 24 hours in advance if you will be absent for the
-                meeting.
-              </p>
-            </li>
-          </ul>
-          <b>Unexcused Absence (per semester)</b>
-          <ul>
-            <li>First absence: You will be placed on 2 levels of probation.</li>
-            <li>Second absence: You will be dismissed from NHS.</li>
-          </ul>
+          <p>
+            You get one excused absence per year. You must fill out the excused
+            absence form 24 hours before the meeting{" "}
+            <a
+              href="https://docs.google.com/forms/d/1UbOtlbepM5Ea64TSWt9mq94PyRfqEceyqh1x24Vkm5I/edit"
+              target="_blank"
+              rel="noreferrer"
+            >
+              here
+            </a>
+            .
+          </p>
+          <p>
+            All other <b>excused</b> absences will result in 1 probation A other
+            excused absences after will also result in 1 probation If you submit
+            your absence note late (it must be 24 hours before the meeting), you
+          </p>
+          <p>
+            Unexcused absences will automatically result in two probations. A
+            second unexcused absence will result in dismissal.
+          </p>
           <h2
             id="probations"
             className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8"
@@ -154,7 +184,7 @@ export default function Current() {
             You will not be allowed to appeal probations unless it is an error
             on our part.{" "}
           </p>
-          <b>Examples of probations but not limited to...</b>
+          <b>Examples of probations include but are not limited to...</b>
           <ul>
             <li>Unexcused meetings (2 probations)</li>
             <li>
@@ -192,6 +222,31 @@ export default function Current() {
             You may not clear a probation with past earned service and project
             credits. Only credits awarded AFTER a probation has been received
             will be acceptable for clearance.
+          </p>
+
+          <h2
+            id="probations"
+            className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8"
+          >
+            Google Classroom Policies
+          </h2>
+          <p>
+            Please select "mark as done" for all assignments, even if they are
+            irrelevant to you (aka if it is not an event you want to participate
+            in). This way, we know you have seen the information posted. (It
+            also cleans up your Google Classroom To-Do list 😃).
+          </p>
+          <p>
+            Smaller events will all be found under the Service category.
+            Volunteers for short-term events will be chosen on a
+            first-come-first-serve basis. For example, if volunteers for a tour
+            is requested within the next few days, we will need to assign
+            volunteers ASAP.
+          </p>
+          <p>
+            If it is an event in which we have more time, we will close the
+            google form on a certain date and review which volunteers need the
+            most service credits. (We will indicate the date of form closing.)
           </p>
         </div>
       </section>
