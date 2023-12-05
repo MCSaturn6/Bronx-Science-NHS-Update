@@ -132,8 +132,8 @@ export default function Apply() {
 
               <tr className="font-500">
                 <th scope="row">Scholarship</th>
-                <td>90 GPA</td>
-                <td>90 GPA</td>
+                <td>93 GPA</td>
+                <td>93 GPA</td>
               </tr>
               <tr className="font-500">
                 <th scope="row">Service Credits</th>
