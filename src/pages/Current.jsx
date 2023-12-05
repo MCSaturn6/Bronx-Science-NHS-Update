@@ -63,7 +63,7 @@ export default function Current() {
             <tbody>
               <tr className="font-500">
                 <th>Scholarship</th>
-                <td>90 GPA</td>
+                <td>93 GPA</td>
               </tr>
 
               <tr className="font-500">

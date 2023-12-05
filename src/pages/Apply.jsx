@@ -174,8 +174,8 @@ export default function Apply() {
 
               <tr className="font-500">
                 <th scope="row">Scholarship</th>
-                <td>90 GPA</td>
-                <td>90 GPA</td>
+                <td>93 GPA</td>
+                <td>93 GPA</td>
               </tr>
               <tr className="font-500">
                 <th scope="row">Service Credits</th>
@@ -235,8 +235,8 @@ export default function Apply() {
             won't be able to convert those excess credits for you if we don't
             know about them.
           </p>
-          <p>5 EXCESS service credit = 1 L/C credit</p>
-          <p>5 EXCESS L/C credit = 1 service credit</p>
+          <p>3 EXCESS service credit = 1 L/C credit</p>
+          <p>3 EXCESS L/C credit = 1 service credit</p>
         </div>
       </section>
     </section>
