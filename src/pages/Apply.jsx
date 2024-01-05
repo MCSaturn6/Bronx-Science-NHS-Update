@@ -69,34 +69,34 @@ export default function Apply() {
               action.
             </div>
             <br></br>
-            <b>Senior Deadline: Friday, 09/29/23 @ 11:59 PM.</b>
+            <b>Junior Deadline: Wednesday, 1/31/24 @ 11:59 PM</b>
             <br></br>
             <br></br>
-            <b>Junior applications open in January</b>
+            <b>Senior applications will open in the Fall of 2024</b>
             <br></br>
             <br></br>
           </p>
           <div class="page-section-buttons">
             <a
               className="no-underline"
-              href="https://forms.gle/6VDP8dE7k1sUeQmJA"
+              href="https://forms.gle/1foqfYPK9goxfsaS7"
               target="_blank"
               rel="noreferrer"
             >
               {" "}
               <button class="button-27 application-button" role="button">
-                NHS 23-24 Senior Application Form
+                NHS 23-24 Junior Application Form
               </button>
             </a>
             <a
               className="no-underline"
-              href="https://forms.gle/bv4U5FYyheEyBZfy9"
+              href="https://forms.gle/9251EEcVJV2wUesTA"
               target="_blank"
               rel="noreferrer"
             >
               {" "}
               <button class="button-27 application-button" role="button">
-                NHS 23-24 Senior Verification Form
+                NHS 23-24 Junior Verification Form
               </button>
             </a>
           </div>
