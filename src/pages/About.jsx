@@ -4,24 +4,24 @@ import Hero from "../components/Hero.jsx";
 
 const board = [
   {
-    name: "Chrissy Jung",
+    name: "Kayla Park",
     position: "President",
-    email: "chrissyj@nycstudents.net",
+    email: "kaylap246@nycstudents.net",
   },
   {
-    name: "Saldon Tenzin",
+    name: "Jayden Lin",
     position: "VP of Organization",
-    email: "saldont@nycstudents.net",
+    email: "jaydenl123@nycstudents.net",
   },
   {
-    name: "Chrystal Mallouras",
+    name: "Darien Lu",
     position: "VP of Tutoring",
-    email: "chrystalm@nycstudents.net",
+    email: "darienl7@nycstudents.net",
   },
   {
-    name: "Matthew Greenspun",
+    name: "Riccardo Sambataro",
     position: "VP of Technology",
-    email: "matthewg219@nycstudents.net",
+    email: "riccardos2@nycstudents.net",
   },
   {
     name: "Mr. DeSilva",
