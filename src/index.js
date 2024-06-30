@@ -9,6 +9,6 @@ import { Analytics } from "@vercel/analytics/react"
 
 ReactDOM.render(
    <BrowserRouter><App/></BrowserRouter>, document.getElementById("root"));
-   <SpeedInsights />
-   <Analytics/>
+   <><Analytics /><SpeedInsights /></>
+   
 
