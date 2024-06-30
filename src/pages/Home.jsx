@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import { useEffect } from 'react'
 
+
 export default function Home() {
   useEffect(() => {
     window.scrollTo(0, 0)
@@ -21,7 +22,7 @@ export default function Home() {
           </div>
           <div class="stats-item stats-item-2">Scholarship.</div>
         </div>
-
+      
         <div class="stats-container">
           <div class="stats-item stats-item-2">Service.</div>
           <div class="stats-item stats-item-1">
@@ -51,8 +52,8 @@ export default function Home() {
             />
           </div>
         </div>
-
       </section>
     </>
   );
+  
 }
