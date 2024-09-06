@@ -79,13 +79,13 @@ export default function Apply() {
           <div class="page-section-buttons">
             <a
               className="no-underline"
-              href="https://forms.gle/1foqfYPK9goxfsaS7"
+              href="https://docs.google.com/forms/d/e/1FAIpQLScVEd455EMR_Ccy4Ujjg4vfQE7Jpo4GswO1zHLajWCrv0B2rw/viewform?edit_requested=true"
               target="_blank"
               rel="noreferrer"
             >
               {" "}
               <button class="button-27 application-button" role="button">
-                NHS 23-24 Junior Application Form
+                NHS 24-25 Senior Application Form
               </button>
             </a>
             <a
@@ -96,7 +96,7 @@ export default function Apply() {
             >
               {" "}
               <button class="button-27 application-button" role="button">
-                NHS 23-24 Junior Verification Form
+                NHS 24-25 Senior Verification Form
               </button>
             </a>
           </div>
