@@ -69,10 +69,7 @@ export default function Apply() {
               action.
             </div>
             <br></br>
-            <b>Junior Deadline: Wednesday, 1/31/24 @ 11:59 PM</b>
-            <br></br>
-            <br></br>
-            <b>Senior applications will open in the Fall of 2024</b>
+            <b>Senior Deadline: Monday, 09/30/2024 at 11:59 PM</b>
             <br></br>
             <br></br>
           </p>
