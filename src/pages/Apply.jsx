@@ -87,7 +87,7 @@ export default function Apply() {
             </a>
             <a
               className="no-underline"
-              href="https://forms.gle/9251EEcVJV2wUesTA"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSfV0AqYwqj7vj2VQDvgCMUAcl7yVAREfX5kZvf1nSXU-3FwCg/viewform?pli=1"
               target="_blank"
               rel="noreferrer"
             >
