@@ -49,7 +49,7 @@ export default function Apply() {
             <ol>
               <li>
                 Read the application instructions, requirements, and credit
-                table.
+                table. 
               </li>
               <li>Submit an electronic application.</li>
               <li>
@@ -70,6 +70,8 @@ export default function Apply() {
             </div>
             <br></br>
             <b>Senior Deadline: Monday, 09/30/2024 at 11:59 PM</b>
+            <br></br>
+            <b>Please use your Bronx Science account to access the forms!</b>
             <br></br>
             <br></br>
           </p>
