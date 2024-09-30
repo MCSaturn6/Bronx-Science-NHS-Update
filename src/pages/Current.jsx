@@ -156,7 +156,7 @@ export default function Current() {
             You get one excused absence per year. You must fill out the excused
             absence form 24 hours before the meeting{" "}
             <a
-              href="https://docs.google.com/forms/d/1UbOtlbepM5Ea64TSWt9mq94PyRfqEceyqh1x24Vkm5I/edit"
+              href="https://forms.gle/xhmfRfd3qqpd6eXa6"
               target="_blank"
               rel="noreferrer"
             >
