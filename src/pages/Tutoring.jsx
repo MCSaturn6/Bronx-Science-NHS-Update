@@ -26,7 +26,7 @@ export default function Tutoring() {
             >
               this
             </a>{" "}
-            log. Uplaod the log at the end of each semester{" "}
+            log. Upload the log at the end of each semester{" "}
             <a href="https://forms.gle/Fg18yiJX87GdWzwe8" target="_blank">
               here
             </a>
@@ -41,7 +41,7 @@ export default function Tutoring() {
           <p>
             If you would like assistance in any of your subjects, please use{" "}
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfvi6WwtPg67LyQNDJ1Gikk6dggVUF_oibhug6B3xbMuO7nCg/viewform"
+              href="https://forms.gle/VEhVruZmdQhq91Lf9"
               target="_blank"
             >
               this
@@ -52,13 +52,13 @@ export default function Tutoring() {
           <br></br>
 
           <h2 className="text-3xl font-bold mt-6 mb-3 underline decoration-yellow-500 underline-offset-8">
-            Requesing a Tutor (for Teachers)
+            Requesting a Tutor (for Teachers)
           </h2>
           <p>
             Teachers may request an NHS tutor to assist them during SGI by
             submitting{" "}
             <a
-              href="https://docs.google.com/forms/d/e/1FAIpQLScwbBzHgWnDTu6L9YpjqVxYo4UCBo5SdGpQzwWdJgN8gf8JYA/viewform"
+              href="https://forms.gle/EWq88yaA7FjZV6gq7"
               target="_blank"
             >
               this
