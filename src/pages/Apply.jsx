@@ -27,6 +27,12 @@ export default function Apply() {
             Credit Table
           </button>
         </a>
+        <a className="no-underline" href="https://docs.google.com/spreadsheets/d/12_cG8_oBN1C6_J9FqnFXBBpBXnszA3gdVWT7JADWuSQ/edit?usp=sharing" target={"_blank"}>
+          {" "}
+          <button class="button-27" role="button">
+            Credit Tracker
+          </button>
+        </a>
       </div>
       <section class="body-text">
         <div class="page-body-text pb-40">

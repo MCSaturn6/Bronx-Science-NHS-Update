@@ -59,10 +59,10 @@ export default function About() {
             dedicating an average of 1-2 hours a week on NHS.
             <br></br>
             <br></br>
-            To learn more about NHS, visit{" "}
+            To learn more about NHS, visit the{" "}
             <u>
-              <a class="link" href="https://www.nhs.us" target="_blank">
-                nhs.us.
+              <a class="link" href="https://docs.google.com/document/d/1fnT5oGd8EI96poSIEUtkbQbuF62CSNc85T9Ew-O-GPw/edit?usp=sharing" target="_blank">
+                NHS Guide.
               </a>
             </u>
           </p>
