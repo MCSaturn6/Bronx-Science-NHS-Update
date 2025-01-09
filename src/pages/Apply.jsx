@@ -75,7 +75,7 @@ export default function Apply() {
               action.
             </div>
             <br></br>
-            <b>Senior Deadline: Monday, 09/30/2024 at 11:59 PM</b>
+            <b>Senior Deadline: Monday, 01/30/2025 at 11:59 PM</b>
             <br></br>
             <b>Please use your Bronx Science account to access the forms!</b>
             <br></br>
@@ -84,24 +84,13 @@ export default function Apply() {
           <div class="page-section-buttons">
             <a
               className="no-underline"
-              href="https://docs.google.com/forms/d/e/1FAIpQLScVEd455EMR_Ccy4Ujjg4vfQE7Jpo4GswO1zHLajWCrv0B2rw/viewform?edit_requested=true"
+              href="https://forms.gle/HMRcAtQUXNDHcY479e"
               target="_blank"
               rel="noreferrer"
             >
               {" "}
               <button class="button-27 application-button" role="button">
-                NHS 24-25 Senior Application Form
-              </button>
-            </a>
-            <a
-              className="no-underline"
-              href="https://docs.google.com/forms/d/e/1FAIpQLSfV0AqYwqj7vj2VQDvgCMUAcl7yVAREfX5kZvf1nSXU-3FwCg/viewform?pli=1"
-              target="_blank"
-              rel="noreferrer"
-            >
-              {" "}
-              <button class="button-27 application-button" role="button">
-                NHS 24-25 Senior Verification Form
+                NHS 24-25 Junior Application Form
               </button>
             </a>
           </div>
