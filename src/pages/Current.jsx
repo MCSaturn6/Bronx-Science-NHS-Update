@@ -95,12 +95,12 @@ export default function Current() {
             <div class="page-section-buttons">
               <a
                 className="no-underline"
-                href="https://docs.google.com/spreadsheets/d/1uNOCmTFOgucpe1mhAYu1hAZqBHnHEAyuSiqSrghKFXc/edit#gid=1436749846"
+                href="https://docs.google.com/spreadsheets/d/1BujvEWA014UZ3zrW_jyreD02KqphgCJ6/edit?usp=sharing&ouid=108229817538527341957&rtpof=true&sd=true"
                 target="_blank"
               >
                 {""}
                 <button class="button-27 application-button" role="button">
-                  NHS 23-24 Master Spreadsheet
+                  NHS 24-25 Master Spreadsheet
                 </button>
               </a>
             </div>
