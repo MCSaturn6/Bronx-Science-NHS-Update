@@ -4,7 +4,7 @@ import Hero from "../components/Hero.jsx";
 
 const board = [
   {
-    name: "Simone Ginsberg",
+    name: "Simone G.",
     position: "President",
     email: "simoneg28@nycstudents.net",
   },
