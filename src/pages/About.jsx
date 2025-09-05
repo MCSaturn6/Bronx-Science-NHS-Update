@@ -19,7 +19,7 @@ const board = [
     email: "kyleq3@nycstudents.net",
   },
   {
-    name: "Menqian C",
+    name: "Menqian Cai",
     position: "VP of Technology",
     email: "Menqianc@nycstudents.net",
   },
