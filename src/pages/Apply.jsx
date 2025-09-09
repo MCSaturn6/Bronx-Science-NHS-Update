@@ -75,7 +75,7 @@ export default function Apply() {
               action.
             </div>
             <br></br>
-            <b>Senior Deadline: Monday, 01/30/2025 at 11:59 PM</b>
+            <b>Senior Deadline: TBA </b>
             <br></br>
             <b>Please use your Bronx Science account to access the forms!</b>
             <br></br>
