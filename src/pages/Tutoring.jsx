@@ -41,7 +41,7 @@ export default function Tutoring() {
           <p>
             If you would like assistance in any of your subjects, please use{" "}
             <a
-              href="https://forms.gle/VEhVruZmdQhq91Lf9"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdSkilBcJnqa21ORZSziSQFzzw-w5lFcXnu98Vz1feaG5E0tw/viewform?usp=dialog"
               target="_blank"
             >
               this
@@ -58,7 +58,7 @@ export default function Tutoring() {
             Teachers may request an NHS tutor to assist them during SGI by
             submitting{" "}
             <a
-              href="https://forms.gle/EWq88yaA7FjZV6gq7"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSdgzr7N6jphP9Ftz1b0d4nF_xf10Chj9XmO5qkuJDjCPppQuA/viewform?usp=dialog"
               target="_blank"
             >
               this
