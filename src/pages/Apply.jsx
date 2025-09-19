@@ -75,22 +75,22 @@ export default function Apply() {
               action.
             </div>
             <br></br>
-            <b>Senior Deadline: TBA </b>
+            <b>Senior Deadline: Monday, September 29, 2025</b>
             <br></br>
-            <b>Please use your Bronx Science account to access the forms!</b>
+            <b>Please use your DOE email address to access the forms!</b>
             <br></br>
             <br></br>
           </p>
           <div class="page-section-buttons">
             <a
               className="no-underline"
-              href="https://forms.gle/HMRcAtQUXNDHcY479e"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSeG8H7qpLPetwt8t3wDjC-VuqUBOWCsqf7mE2AhpXBSXNUL0g/viewform?usp=sharing&ouid=116357346522739094232"
               target="_blank"
               rel="noreferrer"
             >
               {" "}
               <button class="button-27 application-button" role="button">
-                NHS 24-25 Junior Application Form
+                NHS 25-26 Senior Application Form
               </button>
             </a>
           </div>
